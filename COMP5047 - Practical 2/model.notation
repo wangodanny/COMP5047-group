@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+  <notation:Diagram xmi:id="_ziuzULv4EfG4hKu89Gli4A" type="PapyrusUMLClassDiagram" name="Class Diagram" measurementUnit="Pixel">
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_ziuzUbv4EfG4hKu89Gli4A" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_ziuzUrv4EfG4hKu89Gli4A"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_ziuzU7v4EfG4hKu89Gli4A" diagramKindId="org.eclipse.papyrus.uml.diagram.class">
+      <owner xmi:type="uml:Model" href="model.uml#_zgtaELv4EfG4hKu89Gli4A"/>
+    </styles>
+    <element xmi:type="uml:Model" href="model.uml#_zgtaELv4EfG4hKu89Gli4A"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_zjH04Lv4EfG4hKu89Gli4A" type="PapyrusUMLActivityDiagram" name="Activity Diagram" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_zjH04bv4EfG4hKu89Gli4A" type="Activity_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_zjH04rv4EfG4hKu89Gli4A" type="Activity_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_zjH047v4EfG4hKu89Gli4A" type="Activity_KeywordLabel"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_zjH05Lv4EfG4hKu89Gli4A" type="Activity_ParameterCompartment">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_zjH05bv4EfG4hKu89Gli4A"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_zjH05rv4EfG4hKu89Gli4A"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zjH057v4EfG4hKu89Gli4A"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_zjH06Lv4EfG4hKu89Gli4A" type="Activity_PreconditionCompartment">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_zjH06bv4EfG4hKu89Gli4A"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_zjH06rv4EfG4hKu89Gli4A"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zjH067v4EfG4hKu89Gli4A"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_zjH07Lv4EfG4hKu89Gli4A" type="Activity_PostconditionCompartment">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_zjH07bv4EfG4hKu89Gli4A"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_zjH07rv4EfG4hKu89Gli4A"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zjH077v4EfG4hKu89Gli4A"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_zjH08Lv4EfG4hKu89Gli4A" type="Activity_ActivityNodeCompartment">
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zjH08bv4EfG4hKu89Gli4A"/>
+      </children>
+      <element xmi:type="uml:Activity" href="model.uml#_zi6ZgLv4EfG4hKu89Gli4A"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zjH08rv4EfG4hKu89Gli4A"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_zjH087v4EfG4hKu89Gli4A" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_zjH09Lv4EfG4hKu89Gli4A"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_zjH09bv4EfG4hKu89Gli4A" diagramKindId="org.eclipse.papyrus.uml.diagram.activity">
+      <owner xmi:type="uml:Model" href="model.uml#_zgtaELv4EfG4hKu89Gli4A"/>
+    </styles>
+    <element xmi:type="uml:Activity" href="model.uml#_zi6ZgLv4EfG4hKu89Gli4A"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_7AygULv4EfG4hKu89Gli4A" type="PapyrusUMLClassDiagram" name="COMP5047 - P2 Class Diagram" measurementUnit="Pixel">
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_7AygUbv4EfG4hKu89Gli4A" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_7AygUrv4EfG4hKu89Gli4A"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_7AygU7v4EfG4hKu89Gli4A" diagramKindId="org.eclipse.papyrus.uml.diagram.class">
+      <owner xmi:type="uml:Model" href="model.uml#_zgtaELv4EfG4hKu89Gli4A"/>
+    </styles>
+    <element xmi:type="uml:Model" href="model.uml#_zgtaELv4EfG4hKu89Gli4A"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_Oom0cLv5EfG4hKu89Gli4A" type="UseCase" name="COMP5047 - P2 Use Case Diagram" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_PbUq0Lv5EfG4hKu89Gli4A" type="Actor_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_PbVR4Lv5EfG4hKu89Gli4A" type="Actor_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_PbVR4bv5EfG4hKu89Gli4A" y="15"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_PbVR4rv5EfG4hKu89Gli4A" type="Actor_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_PbVR47v5EfG4hKu89Gli4A" x="20" y="100"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_PbVR5Lv5EfG4hKu89Gli4A" type="Actor_QualifiedNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_PbVR5bv5EfG4hKu89Gli4A" x="20" y="80"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_PbVR5rv5EfG4hKu89Gli4A" type="Actor_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_PbVR57v5EfG4hKu89Gli4A" y="15"/>
+      </children>
+      <element xmi:type="uml:Actor" href="model.uml#_PbSOkLv5EfG4hKu89Gli4A"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PbUq0bv5EfG4hKu89Gli4A" x="240" y="220" width="121" height="111"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_sMskcLv5EfG4hKu89Gli4A" type="UseCase_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_sMskcrv5EfG4hKu89Gli4A" type="UseCase_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_sMskc7v5EfG4hKu89Gli4A" type="UseCase_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_sMskdLv5EfG4hKu89Gli4A" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_sMskdbv5EfG4hKu89Gli4A" type="UseCase_ExtensionPointCompartment">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_sMskdrv5EfG4hKu89Gli4A"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_sMskd7v5EfG4hKu89Gli4A"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sMskeLv5EfG4hKu89Gli4A"/>
+      </children>
+      <element xmi:type="uml:UseCase" href="model.uml#_sMrWULv5EfG4hKu89Gli4A"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sMskcbv5EfG4hKu89Gli4A" x="540" y="220" width="241" height="121"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_Oom0cbv5EfG4hKu89Gli4A" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_Oom0crv5EfG4hKu89Gli4A"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_Oom0c7v5EfG4hKu89Gli4A" diagramKindId="org.eclipse.papyrus.uml.diagram.useCase">
+      <owner xmi:type="uml:Model" href="model.uml#_zgtaELv4EfG4hKu89Gli4A"/>
+    </styles>
+    <element xmi:type="uml:Model" href="model.uml#_zgtaELv4EfG4hKu89Gli4A"/>
+    <edges xmi:type="notation:Connector" xmi:id="_v3FykLv5EfG4hKu89Gli4A" type="Generalization_Edge" source="_PbUq0Lv5EfG4hKu89Gli4A" target="_sMskcLv5EfG4hKu89Gli4A">
+      <children xmi:type="notation:DecorationNode" xmi:id="_v3GZoLv5EfG4hKu89Gli4A" type="Generalization_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_0bJzoLv5EfG4hKu89Gli4A" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_v3GZobv5EfG4hKu89Gli4A" x="1" y="-18"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_v3Fykbv5EfG4hKu89Gli4A"/>
+      <element xmi:type="uml:Generalization" href="model.uml#_v292wLv5EfG4hKu89Gli4A"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_v3Fykrv5EfG4hKu89Gli4A" points="[301, 260, -643984, -643984]$[634, 340, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v3gpULv5EfG4hKu89Gli4A" id="(1.0,0.5405405405405406)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v3gpUbv5EfG4hKu89Gli4A" id="(0.0,0.49586776859504134)"/>
+    </edges>
+  </notation:Diagram>
+</xmi:XMI>
