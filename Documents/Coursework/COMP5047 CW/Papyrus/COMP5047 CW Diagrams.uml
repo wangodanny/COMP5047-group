@@ -5,5 +5,16 @@
   </packageImport>
   <packagedElement xmi:type="uml:Activity" xmi:id="_oPHVUMZREfG2R6DrYGSo7g" name="Activity1"/>
   <packagedElement xmi:type="uml:Activity" xmi:id="_oP0f8MZREfG2R6DrYGSo7g" name="Activity2"/>
-  <packagedElement xmi:type="uml:Actor" xmi:id="_go4cYMZUEfGkoNVKLC9d3A" name="Actor4"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_go4cYMZUEfGkoNVKLC9d3A" name="Student"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_O8z74MZXEfGkoNVKLC9d3A" name="Actor5"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_pmAoEMZXEfGkoNVKLC9d3A" name="Log in"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_geDpcMZ1EfGkoNVKLC9d3A" name="Virtual Tour"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_d_PoMMZ2EfGkoNVKLC9d3A" name="Room selection"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="__fK7oMZ2EfGkoNVKLC9d3A" name="Digital Contracts"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_PsyZwMZ3EfGkoNVKLC9d3A" name="Digital Keys"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_jd6a4MZ3EfGkoNVKLC9d3A" name="Parcel Collection"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_hBp-YMZ4EfGkoNVKLC9d3A" name="Facility Booking"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_pk05UMZ4EfGkoNVKLC9d3A" name="Vistor Management"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_yEVKUMZ6EfGkoNVKLC9d3A" name="Tickets"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_KZeJMMZ7EfGkoNVKLC9d3A" name="Check in/Out"/>
 </uml:Model>
