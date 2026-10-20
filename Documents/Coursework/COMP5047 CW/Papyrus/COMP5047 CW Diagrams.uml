@@ -4,7 +4,6 @@
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
   <packagedElement xmi:type="uml:Activity" xmi:id="_oPHVUMZREfG2R6DrYGSo7g" name="Activity1"/>
-  <packagedElement xmi:type="uml:Activity" xmi:id="_oP0f8MZREfG2R6DrYGSo7g" name="Activity2"/>
   <packagedElement xmi:type="uml:Actor" xmi:id="_go4cYMZUEfGkoNVKLC9d3A" name="Student"/>
   <packagedElement xmi:type="uml:Actor" xmi:id="_O8z74MZXEfGkoNVKLC9d3A" name="Actor5"/>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_pmAoEMZXEfGkoNVKLC9d3A" name="Log in"/>
@@ -17,4 +16,24 @@
   <packagedElement xmi:type="uml:UseCase" xmi:id="_pk05UMZ4EfGkoNVKLC9d3A" name="Vistor Management"/>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_yEVKUMZ6EfGkoNVKLC9d3A" name="Tickets"/>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_KZeJMMZ7EfGkoNVKLC9d3A" name="Check in/Out"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_7Gu3kMZ9EfGkoNVKLC9d3A"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_cqu9QMZ_EfGkoNVKLC9d3A"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_epGucMZ_EfGkoNVKLC9d3A"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_unD_8MZ_EfGkoNVKLC9d3A"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_54MV8MZ_EfGkoNVKLC9d3A"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_8eg38MZ_EfGkoNVKLC9d3A"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_CSRmUMaAEfGkoNVKLC9d3A"/>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_FC0nMMxmEfGQc5ZyTyBUKQ" name="Activity22" node="_KBReMMxmEfGQc5ZyTyBUKQ _Mxwo0MxmEfGQc5ZyTyBUKQ _jtwDcMxmEfGQc5ZyTyBUKQ _wGfhwMxmEfGQc5ZyTyBUKQ" group="_HfYJMMxmEfGQc5ZyTyBUKQ _pVaPgMxmEfGQc5ZyTyBUKQ">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_aarVkMxmEfGQc5ZyTyBUKQ" target="_Mxwo0MxmEfGQc5ZyTyBUKQ" source="_KBReMMxmEfGQc5ZyTyBUKQ"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_HfYJMMxmEfGQc5ZyTyBUKQ" name="Student" node="_Mxwo0MxmEfGQc5ZyTyBUKQ"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_pVaPgMxmEfGQc5ZyTyBUKQ" name="UniDorm Student Subsystem" node="_wGfhwMxmEfGQc5ZyTyBUKQ"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_KBReMMxmEfGQc5ZyTyBUKQ" name="InitialNode2" outgoing="_aarVkMxmEfGQc5ZyTyBUKQ"/>
+    <node xmi:type="uml:CreateObjectAction" xmi:id="_Mxwo0MxmEfGQc5ZyTyBUKQ" name="Start Student Check in/Out" incoming="_aarVkMxmEfGQc5ZyTyBUKQ" inPartition="_HfYJMMxmEfGQc5ZyTyBUKQ">
+      <handler xmi:type="uml:ExceptionHandler" xmi:id="_ZVhrYMxmEfGQc5ZyTyBUKQ"/>
+    </node>
+    <node xmi:type="uml:CentralBufferNode" xmi:id="_jtwDcMxmEfGQc5ZyTyBUKQ" name="Message to start student check in/Out">
+      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_jtxRkMxmEfGQc5ZyTyBUKQ" value="1"/>
+    </node>
+    <node xmi:type="uml:CreateObjectAction" xmi:id="_wGfhwMxmEfGQc5ZyTyBUKQ" name="Check if user has checked in" inPartition="_pVaPgMxmEfGQc5ZyTyBUKQ"/>
+  </packagedElement>
 </uml:Model>
