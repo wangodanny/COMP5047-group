@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_vBNPQNH5EfGIboA1ZMuSig" name="group project 5047 cw">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_vQirwNH5EfGIboA1ZMuSig">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_vOPlsNH5EfGIboA1ZMuSig" name="Activity1" group="_7grnsNH5EfGIboA1ZMuSig">
+    <group xmi:type="uml:ActivityPartition" xmi:id="_7grnsNH5EfGIboA1ZMuSig" name="ActivityPartition1"/>
+  </packagedElement>
+</uml:Model>
