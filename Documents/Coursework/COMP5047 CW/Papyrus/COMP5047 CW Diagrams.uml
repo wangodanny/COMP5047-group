@@ -23,7 +23,7 @@
   <packagedElement xmi:type="uml:Association" xmi:id="_54MV8MZ_EfGkoNVKLC9d3A"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_8eg38MZ_EfGkoNVKLC9d3A"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_CSRmUMaAEfGkoNVKLC9d3A"/>
-  <packagedElement xmi:type="uml:Activity" xmi:id="_FC0nMMxmEfGQc5ZyTyBUKQ" name="Activity22" node="_KBReMMxmEfGQc5ZyTyBUKQ _Mxwo0MxmEfGQc5ZyTyBUKQ _jtwDcMxmEfGQc5ZyTyBUKQ _wGfhwMxmEfGQc5ZyTyBUKQ _Aw8asNHqEfG3K7BKxZY9ag _4nXPANHqEfG3K7BKxZY9ag _8UqnMNHqEfG3K7BKxZY9ag _ORziMNHrEfG3K7BKxZY9ag" group="_HfYJMMxmEfGQc5ZyTyBUKQ _pVaPgMxmEfGQc5ZyTyBUKQ">
+  <packagedElement xmi:type="uml:Activity" xmi:id="_FC0nMMxmEfGQc5ZyTyBUKQ" name="Activity22" node="_KBReMMxmEfGQc5ZyTyBUKQ _Mxwo0MxmEfGQc5ZyTyBUKQ _jtwDcMxmEfGQc5ZyTyBUKQ _wGfhwMxmEfGQc5ZyTyBUKQ _Aw8asNHqEfG3K7BKxZY9ag _4nXPANHqEfG3K7BKxZY9ag _8UqnMNHqEfG3K7BKxZY9ag _ORziMNHrEfG3K7BKxZY9ag _zAxvENHsEfG3K7BKxZY9ag" group="_HfYJMMxmEfGQc5ZyTyBUKQ _pVaPgMxmEfGQc5ZyTyBUKQ">
     <edge xmi:type="uml:ControlFlow" xmi:id="_aarVkMxmEfGQc5ZyTyBUKQ" target="_Mxwo0MxmEfGQc5ZyTyBUKQ" source="_KBReMMxmEfGQc5ZyTyBUKQ"/>
     <edge xmi:type="uml:ControlFlow" xmi:id="_2ZRRsNHoEfG3K7BKxZY9ag" target="_jtwDcMxmEfGQc5ZyTyBUKQ" source="_Mxwo0MxmEfGQc5ZyTyBUKQ"/>
     <edge xmi:type="uml:ControlFlow" xmi:id="_8QwpgNHoEfG3K7BKxZY9ag" target="_wGfhwMxmEfGQc5ZyTyBUKQ" source="_jtwDcMxmEfGQc5ZyTyBUKQ"/>
@@ -31,6 +31,7 @@
     <edge xmi:type="uml:ControlFlow" xmi:id="_8VBMgNHqEfG3K7BKxZY9ag" name="[quit sign in]" target="_8UqnMNHqEfG3K7BKxZY9ag" source="_4nXPANHqEfG3K7BKxZY9ag"/>
     <edge xmi:type="uml:ControlFlow" xmi:id="_AayIANHrEfG3K7BKxZY9ag" target="_4nXPANHqEfG3K7BKxZY9ag" source="_Aw8asNHqEfG3K7BKxZY9ag"/>
     <edge xmi:type="uml:ControlFlow" xmi:id="_OSGdINHrEfG3K7BKxZY9ag" name="[else]" inPartition="_HfYJMMxmEfGQc5ZyTyBUKQ" target="_ORziMNHrEfG3K7BKxZY9ag" source="_4nXPANHqEfG3K7BKxZY9ag"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_zBcdcNHsEfG3K7BKxZY9ag" target="_zAxvENHsEfG3K7BKxZY9ag" source="_ORziMNHrEfG3K7BKxZY9ag"/>
     <group xmi:type="uml:ActivityPartition" xmi:id="_HfYJMMxmEfGQc5ZyTyBUKQ" name="Student" node="_Mxwo0MxmEfGQc5ZyTyBUKQ _4nXPANHqEfG3K7BKxZY9ag _ORziMNHrEfG3K7BKxZY9ag" edge="_OSGdINHrEfG3K7BKxZY9ag"/>
     <group xmi:type="uml:ActivityPartition" xmi:id="_pVaPgMxmEfGQc5ZyTyBUKQ" name="UniDorm Student Subsystem" node="_wGfhwMxmEfGQc5ZyTyBUKQ"/>
     <node xmi:type="uml:InitialNode" xmi:id="_KBReMMxmEfGQc5ZyTyBUKQ" name="InitialNode2" outgoing="_aarVkMxmEfGQc5ZyTyBUKQ"/>
@@ -46,6 +47,9 @@
     </node>
     <node xmi:type="uml:DecisionNode" xmi:id="_4nXPANHqEfG3K7BKxZY9ag" name="" incoming="_AayIANHrEfG3K7BKxZY9ag" outgoing="_8VBMgNHqEfG3K7BKxZY9ag _OSGdINHrEfG3K7BKxZY9ag" inPartition="_HfYJMMxmEfGQc5ZyTyBUKQ"/>
     <node xmi:type="uml:ActivityFinalNode" xmi:id="_8UqnMNHqEfG3K7BKxZY9ag" name="" incoming="_8VBMgNHqEfG3K7BKxZY9ag"/>
-    <node xmi:type="uml:AddVariableValueAction" xmi:id="_ORziMNHrEfG3K7BKxZY9ag" name="Sign in on Uni SSO Page" incoming="_OSGdINHrEfG3K7BKxZY9ag" inPartition="_HfYJMMxmEfGQc5ZyTyBUKQ"/>
+    <node xmi:type="uml:AddVariableValueAction" xmi:id="_ORziMNHrEfG3K7BKxZY9ag" name="Sign in on Uni SSO Page" incoming="_OSGdINHrEfG3K7BKxZY9ag" outgoing="_zBcdcNHsEfG3K7BKxZY9ag" inPartition="_HfYJMMxmEfGQc5ZyTyBUKQ"/>
+    <node xmi:type="uml:CentralBufferNode" xmi:id="_zAxvENHsEfG3K7BKxZY9ag" name="Message to get respone from SSO page" incoming="_zBcdcNHsEfG3K7BKxZY9ag">
+      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_zAy9MNHsEfG3K7BKxZY9ag" value="1"/>
+    </node>
   </packagedElement>
 </uml:Model>
