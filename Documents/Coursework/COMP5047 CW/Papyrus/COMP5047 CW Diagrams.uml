@@ -1,21 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_oKMZEMZREfG2R6DrYGSo7g" name="COMP5047 CW Diagrams">
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_oKMZEMZREfG2R6DrYGSo7g" name="COMP5047 CW Diagrams">
   <packageImport xmi:type="uml:PackageImport" xmi:id="_oQSaAMZREfG2R6DrYGSo7g">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
   <packagedElement xmi:type="uml:Activity" xmi:id="_oPHVUMZREfG2R6DrYGSo7g" name="Activity1"/>
   <packagedElement xmi:type="uml:Actor" xmi:id="_go4cYMZUEfGkoNVKLC9d3A" name="Student"/>
-  <packagedElement xmi:type="uml:Actor" xmi:id="_O8z74MZXEfGkoNVKLC9d3A" name="Actor5"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_pmAoEMZXEfGkoNVKLC9d3A" name="Log in"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_geDpcMZ1EfGkoNVKLC9d3A" name="Virtual Tour"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_d_PoMMZ2EfGkoNVKLC9d3A" name="Room selection"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="__fK7oMZ2EfGkoNVKLC9d3A" name="Digital Contracts"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_PsyZwMZ3EfGkoNVKLC9d3A" name="Digital Keys"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_jd6a4MZ3EfGkoNVKLC9d3A" name="Parcel Collection"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_hBp-YMZ4EfGkoNVKLC9d3A" name="Facility Booking"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_pk05UMZ4EfGkoNVKLC9d3A" name="Vistor Management"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_yEVKUMZ6EfGkoNVKLC9d3A" name="Tickets"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_KZeJMMZ7EfGkoNVKLC9d3A" name="Check in/Out"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_O8z74MZXEfGkoNVKLC9d3A" name="Warden Subsystem"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_pmAoEMZXEfGkoNVKLC9d3A" name="Log in">
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_F16cgNvGEfGRqPW6yR8s9Q" name="ExtensionPoint2"/>
+    <include xmi:type="uml:Include" xmi:id="_6Y4_kNvFEfGRqPW6yR8s9Q" addition="_sHQF8NvFEfGRqPW6yR8s9Q"/>
+  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_7Gu3kMZ9EfGkoNVKLC9d3A"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_cqu9QMZ_EfGkoNVKLC9d3A"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_epGucMZ_EfGkoNVKLC9d3A"/>
@@ -71,5 +65,124 @@
     <node xmi:type="uml:DecisionNode" xmi:id="_G30OINHxEfG3K7BKxZY9ag" name="" incoming="_G4F68NHxEfG3K7BKxZY9ag" outgoing="_OrN5ANHxEfG3K7BKxZY9ag _ScDtYNHxEfG3K7BKxZY9ag _XovNoNHxEfG3K7BKxZY9ag" inPartition="_HfYJMMxmEfGQc5ZyTyBUKQ"/>
     <node xmi:type="uml:ActivityFinalNode" xmi:id="_Oq8MMNHxEfG3K7BKxZY9ag" name="" incoming="_bz0RgNHyEfG3K7BKxZY9ag"/>
     <node xmi:type="uml:CreateObjectAction" xmi:id="_SbynoNHxEfG3K7BKxZY9ag" name="Load Student account" incoming="_ScDtYNHxEfG3K7BKxZY9ag" outgoing="_bz0RgNHyEfG3K7BKxZY9ag" inPartition="_HfYJMMxmEfGQc5ZyTyBUKQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_UY2MYNvEEfGRqPW6yR8s9Q" name="Accomodation Office"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_sHQF8NvFEfGRqPW6yR8s9Q" name="Verify SSO details"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_LwTP8NvJEfGRqPW6yR8s9Q" name="Select Room">
+    <include xmi:type="uml:Include" xmi:id="_NCZ7kNvKEfGRqPW6yR8s9Q" addition="_9UppQNvJEfGRqPW6yR8s9Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_9UppQNvJEfGRqPW6yR8s9Q" name="Enter lifestyle preferences"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_jcHvkNvKEfGRqPW6yR8s9Q"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_8-XawNvKEfGRqPW6yR8s9Q" name="Sign tenancy agreement">
+    <include xmi:type="uml:Include" xmi:id="_WPA_oNvLEfGRqPW6yR8s9Q" addition="__r1GkNvKEfGRqPW6yR8s9Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_YhsM4NvLEfGRqPW6yR8s9Q"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_e3NkgNvLEfGRqPW6yR8s9Q" name="UniDrom Student Mobile Subsystem">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_6yIXQNvLEfGRqPW6yR8s9Q" name="Select room to tour"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_wBWf0NvMEfGRqPW6yR8s9Q" name="Verify biometrics"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_ToTxMNvNEfGRqPW6yR8s9Q" name="Display verification error">
+      <extend xmi:type="uml:Extend" xmi:id="_cpzm4NvNEfGRqPW6yR8s9Q" extendedCase="_PsyZwMZ3EfGkoNVKLC9d3A" extensionLocation="_cp0N8NvNEfGRqPW6yR8s9Q"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_lu0qoNvNEfGRqPW6yR8s9Q" name="Setup Digital key">
+      <extend xmi:type="uml:Extend" xmi:id="_N4aZsNvOEfGRqPW6yR8s9Q" extendedCase="_PsyZwMZ3EfGkoNVKLC9d3A" extensionLocation="_N4bAwNvOEfGRqPW6yR8s9Q"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="__r1GkNvKEfGRqPW6yR8s9Q" name="Setup direct debit"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_jd6a4MZ3EfGkoNVKLC9d3A" name="Parcel Collection">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_cp0N8NvNEfGRqPW6yR8s9Q" name="ExtensionPoint1"/>
+      <include xmi:type="uml:Include" xmi:id="_EWwAwNvPEfGRqPW6yR8s9Q" addition="_5GTnQNvOEfGRqPW6yR8s9Q"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_hBp-YMZ4EfGkoNVKLC9d3A" name="Facility Booking">
+      <include xmi:type="uml:Include" xmi:id="_jv9fUNvPEfGRqPW6yR8s9Q" addition="_VhE-wNvPEfGRqPW6yR8s9Q"/>
+      <include xmi:type="uml:Include" xmi:id="_9jUvsNvPEfGRqPW6yR8s9Q" addition="_30lrQNvPEfGRqPW6yR8s9Q"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_pk05UMZ4EfGkoNVKLC9d3A" name="Vistor Management">
+      <include xmi:type="uml:Include" xmi:id="_ygKHwNvQEfGRqPW6yR8s9Q" addition="_rbtNkNvQEfGRqPW6yR8s9Q"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_yEVKUMZ6EfGkoNVKLC9d3A" name="Tickets">
+      <include xmi:type="uml:Include" xmi:id="_KoaTANxGEfGRqPW6yR8s9Q" addition="_HiENINxGEfGRqPW6yR8s9Q"/>
+      <include xmi:type="uml:Include" xmi:id="_ZwDnkNxGEfGRqPW6yR8s9Q" addition="_Uq8u8NxGEfGRqPW6yR8s9Q"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_KZeJMMZ7EfGkoNVKLC9d3A" name="Check in/Out">
+      <include xmi:type="uml:Include" xmi:id="_oizJQNztEfGa8s8SKkRHKw" addition="_kys7wNztEfGa8s8SKkRHKw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_5GTnQNvOEfGRqPW6yR8s9Q" name="Get parcel QR code"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_VhE-wNvPEfGRqPW6yR8s9Q" name="Show live state of facilites"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_PsyZwMZ3EfGkoNVKLC9d3A" name="Digital Keys">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_N4bAwNvOEfGRqPW6yR8s9Q" name="ExtensionPoint2"/>
+      <include xmi:type="uml:Include" xmi:id="_Ptb3ENvNEfGRqPW6yR8s9Q" addition="_wBWf0NvMEfGRqPW6yR8s9Q"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_30lrQNvPEfGRqPW6yR8s9Q" name="Book facilities"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_rbtNkNvQEfGRqPW6yR8s9Q" name="Create visitor QR code">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_kLO34NxEEfGRqPW6yR8s9Q" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_WYNz8NxEEfGRqPW6yR8s9Q" name="Request additional amenities">
+      <extend xmi:type="uml:Extend" xmi:id="_kLOQ0NxEEfGRqPW6yR8s9Q" extendedCase="_rbtNkNvQEfGRqPW6yR8s9Q" extensionLocation="_kLO34NxEEfGRqPW6yR8s9Q"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_HiENINxGEfGRqPW6yR8s9Q" name="Create Maintainance ticket"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_Uq8u8NxGEfGRqPW6yR8s9Q" name="Track maintainance ticket"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_kys7wNztEfGa8s8SKkRHKw" name="Scan room"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_geDpcMZ1EfGkoNVKLC9d3A" name="Virtual Tour">
+      <include xmi:type="uml:Include" xmi:id="_A7MAMNvMEfGRqPW6yR8s9Q" addition="_6yIXQNvLEfGRqPW6yR8s9Q"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="__fK7oMZ2EfGkoNVKLC9d3A" name="Digital Contracts">
+      <include xmi:type="uml:Include" xmi:id="_PGNJ4NvLEfGRqPW6yR8s9Q" addition="_8-XawNvKEfGRqPW6yR8s9Q"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_wgUX8NvFEfGRqPW6yR8s9Q" name="Display Login Error">
+      <extend xmi:type="uml:Extend" xmi:id="_F151cNvGEfGRqPW6yR8s9Q" extendedCase="_pmAoEMZXEfGkoNVKLC9d3A" extensionLocation="_F16cgNvGEfGRqPW6yR8s9Q"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ZPauMNvOEfGRqPW6yR8s9Q"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_HXuecNvPEfGRqPW6yR8s9Q"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_lrFvQNvPEfGRqPW6yR8s9Q"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_-t994NvPEfGRqPW6yR8s9Q"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_0ORPYNvQEfGRqPW6yR8s9Q"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="__bHaQNzsEfGa8s8SKkRHKw" memberEnd="__bQkMNzsEfGa8s8SKkRHKw __bRyUNzsEfGa8s8SKkRHKw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__bP9INzsEfGa8s8SKkRHKw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__bP9IdzsEfGa8s8SKkRHKw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="__bQkMNzsEfGa8s8SKkRHKw" name="warden subsystem" type="_O8z74MZXEfGkoNVKLC9d3A" association="__bHaQNzsEfGa8s8SKkRHKw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="__bRyUNzsEfGa8s8SKkRHKw" name="create maintainance ticket" type="_HiENINxGEfGRqPW6yR8s9Q" association="__bHaQNzsEfGa8s8SKkRHKw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MaQxQNztEfGa8s8SKkRHKw" memberEnd="_MaSmctztEfGa8s8SKkRHKw _MaTNgNztEfGa8s8SKkRHKw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MaSmcNztEfGa8s8SKkRHKw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MaSmcdztEfGa8s8SKkRHKw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_MaSmctztEfGa8s8SKkRHKw" name="accomodation office" type="_UY2MYNvEEfGRqPW6yR8s9Q" association="_MaQxQNztEfGa8s8SKkRHKw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_MaTNgNztEfGa8s8SKkRHKw" name="request additional amenities" type="_WYNz8NxEEfGRqPW6yR8s9Q" association="_MaQxQNztEfGa8s8SKkRHKw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_XMp80NztEfGa8s8SKkRHKw" memberEnd="_XMrK8tztEfGa8s8SKkRHKw _XMrK89ztEfGa8s8SKkRHKw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_XMrK8NztEfGa8s8SKkRHKw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XMrK8dztEfGa8s8SKkRHKw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_XMrK8tztEfGa8s8SKkRHKw" name="warden subsystem" type="_O8z74MZXEfGkoNVKLC9d3A" association="_XMp80NztEfGa8s8SKkRHKw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_XMrK89ztEfGa8s8SKkRHKw" name="track maintainance ticket" type="_Uq8u8NxGEfGRqPW6yR8s9Q" association="_XMp80NztEfGa8s8SKkRHKw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_IqhToNzuEfGa8s8SKkRHKw" memberEnd="_IqjI0dzuEfGa8s8SKkRHKw _IqjI0tzuEfGa8s8SKkRHKw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IqihwNzuEfGa8s8SKkRHKw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IqjI0NzuEfGa8s8SKkRHKw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_IqjI0dzuEfGa8s8SKkRHKw" name="select room" type="_LwTP8NvJEfGRqPW6yR8s9Q" association="_IqhToNzuEfGa8s8SKkRHKw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_IqjI0tzuEfGa8s8SKkRHKw" name="student" type="_go4cYMZUEfGkoNVKLC9d3A" association="_IqhToNzuEfGa8s8SKkRHKw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_cz3AcNzuEfGa8s8SKkRHKw" memberEnd="_cz3ngtzuEfGa8s8SKkRHKw _cz3ng9zuEfGa8s8SKkRHKw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_cz3ngNzuEfGa8s8SKkRHKw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cz3ngdzuEfGa8s8SKkRHKw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_cz3ngtzuEfGa8s8SKkRHKw" name="digital contracts" type="__fK7oMZ2EfGkoNVKLC9d3A" association="_cz3AcNzuEfGa8s8SKkRHKw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_cz3ng9zuEfGa8s8SKkRHKw" name="student" type="_go4cYMZUEfGkoNVKLC9d3A" association="_cz3AcNzuEfGa8s8SKkRHKw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ptrykNzuEfGa8s8SKkRHKw" memberEnd="_pttnwtzuEfGa8s8SKkRHKw _pttnw9zuEfGa8s8SKkRHKw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pttnwNzuEfGa8s8SKkRHKw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pttnwdzuEfGa8s8SKkRHKw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_pttnwtzuEfGa8s8SKkRHKw" name="accomodation office" type="_UY2MYNvEEfGRqPW6yR8s9Q" association="_ptrykNzuEfGa8s8SKkRHKw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_pttnw9zuEfGa8s8SKkRHKw" name="scan room" type="_kys7wNztEfGa8s8SKkRHKw" association="_ptrykNzuEfGa8s8SKkRHKw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_wOo-INzuEfGa8s8SKkRHKw" memberEnd="_wOqzUtzuEfGa8s8SKkRHKw _wOraYNzuEfGa8s8SKkRHKw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wOqzUNzuEfGa8s8SKkRHKw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wOqzUdzuEfGa8s8SKkRHKw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_wOqzUtzuEfGa8s8SKkRHKw" name="accomodation office" type="_UY2MYNvEEfGRqPW6yR8s9Q" association="_wOo-INzuEfGa8s8SKkRHKw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_wOraYNzuEfGa8s8SKkRHKw" name="select room to tour" type="_6yIXQNvLEfGRqPW6yR8s9Q" association="_wOo-INzuEfGa8s8SKkRHKw"/>
   </packagedElement>
 </uml:Model>
