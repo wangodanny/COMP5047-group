@@ -1,188 +1,372 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_oKMZEMZREfG2R6DrYGSo7g" name="COMP5047 CW Diagrams">
-  <packageImport xmi:type="uml:PackageImport" xmi:id="_oQSaAMZREfG2R6DrYGSo7g">
-    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
-  </packageImport>
-  <packagedElement xmi:type="uml:Activity" xmi:id="_oPHVUMZREfG2R6DrYGSo7g" name="Activity1"/>
-  <packagedElement xmi:type="uml:Actor" xmi:id="_go4cYMZUEfGkoNVKLC9d3A" name="Student"/>
-  <packagedElement xmi:type="uml:Actor" xmi:id="_O8z74MZXEfGkoNVKLC9d3A" name="Warden Subsystem"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_pmAoEMZXEfGkoNVKLC9d3A" name="Log in">
-    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_F16cgNvGEfGRqPW6yR8s9Q" name="ExtensionPoint2"/>
-    <include xmi:type="uml:Include" xmi:id="_6Y4_kNvFEfGRqPW6yR8s9Q" addition="_sHQF8NvFEfGRqPW6yR8s9Q"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_7Gu3kMZ9EfGkoNVKLC9d3A"/>
-  <packagedElement xmi:type="uml:Association" xmi:id="_cqu9QMZ_EfGkoNVKLC9d3A"/>
-  <packagedElement xmi:type="uml:Association" xmi:id="_epGucMZ_EfGkoNVKLC9d3A"/>
-  <packagedElement xmi:type="uml:Association" xmi:id="_unD_8MZ_EfGkoNVKLC9d3A"/>
-  <packagedElement xmi:type="uml:Association" xmi:id="_54MV8MZ_EfGkoNVKLC9d3A"/>
-  <packagedElement xmi:type="uml:Association" xmi:id="_8eg38MZ_EfGkoNVKLC9d3A"/>
-  <packagedElement xmi:type="uml:Association" xmi:id="_CSRmUMaAEfGkoNVKLC9d3A"/>
-  <packagedElement xmi:type="uml:Activity" xmi:id="_FC0nMMxmEfGQc5ZyTyBUKQ" name="Activity22" node="_KBReMMxmEfGQc5ZyTyBUKQ _Mxwo0MxmEfGQc5ZyTyBUKQ _jtwDcMxmEfGQc5ZyTyBUKQ _wGfhwMxmEfGQc5ZyTyBUKQ _Aw8asNHqEfG3K7BKxZY9ag _4nXPANHqEfG3K7BKxZY9ag _8UqnMNHqEfG3K7BKxZY9ag _ORziMNHrEfG3K7BKxZY9ag _zAxvENHsEfG3K7BKxZY9ag _nlMnINHtEfG3K7BKxZY9ag _3WE0ANHvEfG3K7BKxZY9ag _99MR8NHvEfG3K7BKxZY9ag _HizhUNHwEfG3K7BKxZY9ag _cY8pwNHwEfG3K7BKxZY9ag _G30OINHxEfG3K7BKxZY9ag _Oq8MMNHxEfG3K7BKxZY9ag _SbynoNHxEfG3K7BKxZY9ag" group="_HfYJMMxmEfGQc5ZyTyBUKQ _pVaPgMxmEfGQc5ZyTyBUKQ _GD3wENHuEfG3K7BKxZY9ag">
-    <edge xmi:type="uml:ControlFlow" xmi:id="_aarVkMxmEfGQc5ZyTyBUKQ" target="_Mxwo0MxmEfGQc5ZyTyBUKQ" source="_KBReMMxmEfGQc5ZyTyBUKQ"/>
-    <edge xmi:type="uml:ControlFlow" xmi:id="_2ZRRsNHoEfG3K7BKxZY9ag" target="_jtwDcMxmEfGQc5ZyTyBUKQ" source="_Mxwo0MxmEfGQc5ZyTyBUKQ"/>
-    <edge xmi:type="uml:ControlFlow" xmi:id="_8QwpgNHoEfG3K7BKxZY9ag" target="_wGfhwMxmEfGQc5ZyTyBUKQ" source="_jtwDcMxmEfGQc5ZyTyBUKQ"/>
-    <edge xmi:type="uml:ControlFlow" xmi:id="_FqbSINHqEfG3K7BKxZY9ag" target="_Aw8asNHqEfG3K7BKxZY9ag" source="_wGfhwMxmEfGQc5ZyTyBUKQ"/>
-    <edge xmi:type="uml:ControlFlow" xmi:id="_8VBMgNHqEfG3K7BKxZY9ag" name="[quit sign in]" target="_8UqnMNHqEfG3K7BKxZY9ag" source="_4nXPANHqEfG3K7BKxZY9ag"/>
-    <edge xmi:type="uml:ControlFlow" xmi:id="_AayIANHrEfG3K7BKxZY9ag" target="_4nXPANHqEfG3K7BKxZY9ag" source="_Aw8asNHqEfG3K7BKxZY9ag"/>
-    <edge xmi:type="uml:ControlFlow" xmi:id="_OSGdINHrEfG3K7BKxZY9ag" name="[else]" inPartition="_HfYJMMxmEfGQc5ZyTyBUKQ" target="_ORziMNHrEfG3K7BKxZY9ag" source="_4nXPANHqEfG3K7BKxZY9ag"/>
-    <edge xmi:type="uml:ControlFlow" xmi:id="_zBcdcNHsEfG3K7BKxZY9ag" target="_zAxvENHsEfG3K7BKxZY9ag" source="_ORziMNHrEfG3K7BKxZY9ag"/>
-    <edge xmi:type="uml:ControlFlow" xmi:id="_nle7ANHtEfG3K7BKxZY9ag" target="_nlMnINHtEfG3K7BKxZY9ag" source="_zAxvENHsEfG3K7BKxZY9ag"/>
-    <edge xmi:type="uml:ControlFlow" xmi:id="_3WVSsNHvEfG3K7BKxZY9ag" target="_3WE0ANHvEfG3K7BKxZY9ag" source="_nlMnINHtEfG3K7BKxZY9ag"/>
-    <edge xmi:type="uml:ControlFlow" xmi:id="_99cwoNHvEfG3K7BKxZY9ag" name="[incorrect login]" inPartition="_GD3wENHuEfG3K7BKxZY9ag" target="_99MR8NHvEfG3K7BKxZY9ag" source="_3WE0ANHvEfG3K7BKxZY9ag"/>
-    <edge xmi:type="uml:ControlFlow" xmi:id="_HjEAANHwEfG3K7BKxZY9ag" name="[correct login]" inPartition="_GD3wENHuEfG3K7BKxZY9ag" target="_HizhUNHwEfG3K7BKxZY9ag" source="_3WE0ANHvEfG3K7BKxZY9ag"/>
-    <edge xmi:type="uml:ControlFlow" xmi:id="_cZNIcNHwEfG3K7BKxZY9ag" target="_cY8pwNHwEfG3K7BKxZY9ag" source="_HizhUNHwEfG3K7BKxZY9ag"/>
-    <edge xmi:type="uml:ControlFlow" xmi:id="_it1IMNHwEfG3K7BKxZY9ag" target="_cY8pwNHwEfG3K7BKxZY9ag" source="_99MR8NHvEfG3K7BKxZY9ag"/>
-    <edge xmi:type="uml:ControlFlow" xmi:id="_G4F68NHxEfG3K7BKxZY9ag" target="_G30OINHxEfG3K7BKxZY9ag" source="_cY8pwNHwEfG3K7BKxZY9ag"/>
-    <edge xmi:type="uml:ControlFlow" xmi:id="_OrN5ANHxEfG3K7BKxZY9ag" name="[quit sign in]" target="_8UqnMNHqEfG3K7BKxZY9ag" source="_G30OINHxEfG3K7BKxZY9ag"/>
-    <edge xmi:type="uml:ControlFlow" xmi:id="_ScDtYNHxEfG3K7BKxZY9ag" name="[login success]" inPartition="_HfYJMMxmEfGQc5ZyTyBUKQ" target="_SbynoNHxEfG3K7BKxZY9ag" source="_G30OINHxEfG3K7BKxZY9ag"/>
-    <edge xmi:type="uml:ControlFlow" xmi:id="_XovNoNHxEfG3K7BKxZY9ag" name="[retry log in]" inPartition="_HfYJMMxmEfGQc5ZyTyBUKQ" target="_ORziMNHrEfG3K7BKxZY9ag" source="_G30OINHxEfG3K7BKxZY9ag"/>
-    <edge xmi:type="uml:ControlFlow" xmi:id="_bz0RgNHyEfG3K7BKxZY9ag" target="_Oq8MMNHxEfG3K7BKxZY9ag" source="_SbynoNHxEfG3K7BKxZY9ag"/>
-    <group xmi:type="uml:ActivityPartition" xmi:id="_HfYJMMxmEfGQc5ZyTyBUKQ" name="Student" node="_Mxwo0MxmEfGQc5ZyTyBUKQ _4nXPANHqEfG3K7BKxZY9ag _ORziMNHrEfG3K7BKxZY9ag _G30OINHxEfG3K7BKxZY9ag _SbynoNHxEfG3K7BKxZY9ag" edge="_OSGdINHrEfG3K7BKxZY9ag _ScDtYNHxEfG3K7BKxZY9ag _XovNoNHxEfG3K7BKxZY9ag"/>
-    <group xmi:type="uml:ActivityPartition" xmi:id="_pVaPgMxmEfGQc5ZyTyBUKQ" name="UniDorm Student Subsystem" node="_wGfhwMxmEfGQc5ZyTyBUKQ _nlMnINHtEfG3K7BKxZY9ag _cY8pwNHwEfG3K7BKxZY9ag"/>
-    <group xmi:type="uml:ActivityPartition" xmi:id="_GD3wENHuEfG3K7BKxZY9ag" name="Warden Subsystem" node="_3WE0ANHvEfG3K7BKxZY9ag _99MR8NHvEfG3K7BKxZY9ag _HizhUNHwEfG3K7BKxZY9ag" edge="_99cwoNHvEfG3K7BKxZY9ag _HjEAANHwEfG3K7BKxZY9ag"/>
-    <node xmi:type="uml:InitialNode" xmi:id="_KBReMMxmEfGQc5ZyTyBUKQ" name="InitialNode2" outgoing="_aarVkMxmEfGQc5ZyTyBUKQ"/>
-    <node xmi:type="uml:CreateObjectAction" xmi:id="_Mxwo0MxmEfGQc5ZyTyBUKQ" name="Start Student Check in/Out" incoming="_aarVkMxmEfGQc5ZyTyBUKQ" outgoing="_2ZRRsNHoEfG3K7BKxZY9ag" inPartition="_HfYJMMxmEfGQc5ZyTyBUKQ">
-      <handler xmi:type="uml:ExceptionHandler" xmi:id="_ZVhrYMxmEfGQc5ZyTyBUKQ"/>
-    </node>
-    <node xmi:type="uml:CentralBufferNode" xmi:id="_jtwDcMxmEfGQc5ZyTyBUKQ" name="Message to start student check in/Out" incoming="_2ZRRsNHoEfG3K7BKxZY9ag" outgoing="_8QwpgNHoEfG3K7BKxZY9ag">
-      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_jtxRkMxmEfGQc5ZyTyBUKQ" value="1"/>
-    </node>
-    <node xmi:type="uml:CreateObjectAction" xmi:id="_wGfhwMxmEfGQc5ZyTyBUKQ" name="Send Student SSO page" incoming="_8QwpgNHoEfG3K7BKxZY9ag" outgoing="_FqbSINHqEfG3K7BKxZY9ag" inPartition="_pVaPgMxmEfGQc5ZyTyBUKQ"/>
-    <node xmi:type="uml:CentralBufferNode" xmi:id="_Aw8asNHqEfG3K7BKxZY9ag" name="Student SSO Page" incoming="_FqbSINHqEfG3K7BKxZY9ag" outgoing="_AayIANHrEfG3K7BKxZY9ag">
-      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_AxGLsNHqEfG3K7BKxZY9ag" value="1"/>
-    </node>
-    <node xmi:type="uml:DecisionNode" xmi:id="_4nXPANHqEfG3K7BKxZY9ag" name="" incoming="_AayIANHrEfG3K7BKxZY9ag" outgoing="_8VBMgNHqEfG3K7BKxZY9ag _OSGdINHrEfG3K7BKxZY9ag" inPartition="_HfYJMMxmEfGQc5ZyTyBUKQ"/>
-    <node xmi:type="uml:ActivityFinalNode" xmi:id="_8UqnMNHqEfG3K7BKxZY9ag" name="" incoming="_8VBMgNHqEfG3K7BKxZY9ag _OrN5ANHxEfG3K7BKxZY9ag"/>
-    <node xmi:type="uml:AddVariableValueAction" xmi:id="_ORziMNHrEfG3K7BKxZY9ag" name="Sign in on Uni SSO Page" incoming="_OSGdINHrEfG3K7BKxZY9ag _XovNoNHxEfG3K7BKxZY9ag" outgoing="_zBcdcNHsEfG3K7BKxZY9ag" inPartition="_HfYJMMxmEfGQc5ZyTyBUKQ"/>
-    <node xmi:type="uml:CentralBufferNode" xmi:id="_zAxvENHsEfG3K7BKxZY9ag" name="Message to get respone from SSO page" incoming="_zBcdcNHsEfG3K7BKxZY9ag" outgoing="_nle7ANHtEfG3K7BKxZY9ag">
-      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_zAy9MNHsEfG3K7BKxZY9ag" value="1"/>
-    </node>
-    <node xmi:type="uml:CreateObjectAction" xmi:id="_nlMnINHtEfG3K7BKxZY9ag" name="Request SSO Sign in response" incoming="_nle7ANHtEfG3K7BKxZY9ag" outgoing="_3WVSsNHvEfG3K7BKxZY9ag" inPartition="_pVaPgMxmEfGQc5ZyTyBUKQ"/>
-    <node xmi:type="uml:DecisionNode" xmi:id="_3WE0ANHvEfG3K7BKxZY9ag" name="" incoming="_3WVSsNHvEfG3K7BKxZY9ag" outgoing="_99cwoNHvEfG3K7BKxZY9ag _HjEAANHwEfG3K7BKxZY9ag" inPartition="_GD3wENHuEfG3K7BKxZY9ag"/>
-    <node xmi:type="uml:CreateObjectAction" xmi:id="_99MR8NHvEfG3K7BKxZY9ag" name="Send login reject message" incoming="_99cwoNHvEfG3K7BKxZY9ag" outgoing="_it1IMNHwEfG3K7BKxZY9ag" inPartition="_GD3wENHuEfG3K7BKxZY9ag"/>
-    <node xmi:type="uml:CreateObjectAction" xmi:id="_HizhUNHwEfG3K7BKxZY9ag" name="Send login accepted message" incoming="_HjEAANHwEfG3K7BKxZY9ag" outgoing="_cZNIcNHwEfG3K7BKxZY9ag" inPartition="_GD3wENHuEfG3K7BKxZY9ag"/>
-    <node xmi:type="uml:CreateObjectAction" xmi:id="_cY8pwNHwEfG3K7BKxZY9ag" name="Send SSO Response" incoming="_cZNIcNHwEfG3K7BKxZY9ag _it1IMNHwEfG3K7BKxZY9ag" outgoing="_G4F68NHxEfG3K7BKxZY9ag" inPartition="_pVaPgMxmEfGQc5ZyTyBUKQ"/>
-    <node xmi:type="uml:DecisionNode" xmi:id="_G30OINHxEfG3K7BKxZY9ag" name="" incoming="_G4F68NHxEfG3K7BKxZY9ag" outgoing="_OrN5ANHxEfG3K7BKxZY9ag _ScDtYNHxEfG3K7BKxZY9ag _XovNoNHxEfG3K7BKxZY9ag" inPartition="_HfYJMMxmEfGQc5ZyTyBUKQ"/>
-    <node xmi:type="uml:ActivityFinalNode" xmi:id="_Oq8MMNHxEfG3K7BKxZY9ag" name="" incoming="_bz0RgNHyEfG3K7BKxZY9ag"/>
-    <node xmi:type="uml:CreateObjectAction" xmi:id="_SbynoNHxEfG3K7BKxZY9ag" name="Load Student account" incoming="_ScDtYNHxEfG3K7BKxZY9ag" outgoing="_bz0RgNHyEfG3K7BKxZY9ag" inPartition="_HfYJMMxmEfGQc5ZyTyBUKQ"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Actor" xmi:id="_UY2MYNvEEfGRqPW6yR8s9Q" name="Accomodation Office"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_sHQF8NvFEfGRqPW6yR8s9Q" name="Verify SSO details"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_LwTP8NvJEfGRqPW6yR8s9Q" name="Select Room">
-    <include xmi:type="uml:Include" xmi:id="_NCZ7kNvKEfGRqPW6yR8s9Q" addition="_9UppQNvJEfGRqPW6yR8s9Q"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_9UppQNvJEfGRqPW6yR8s9Q" name="Enter lifestyle preferences"/>
-  <packagedElement xmi:type="uml:Association" xmi:id="_jcHvkNvKEfGRqPW6yR8s9Q"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_8-XawNvKEfGRqPW6yR8s9Q" name="Sign tenancy agreement">
-    <include xmi:type="uml:Include" xmi:id="_WPA_oNvLEfGRqPW6yR8s9Q" addition="__r1GkNvKEfGRqPW6yR8s9Q"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_YhsM4NvLEfGRqPW6yR8s9Q"/>
-  <packagedElement xmi:type="uml:Package" xmi:id="_e3NkgNvLEfGRqPW6yR8s9Q" name="UniDrom Student Mobile Subsystem">
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_6yIXQNvLEfGRqPW6yR8s9Q" name="Select room to tour"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_wBWf0NvMEfGRqPW6yR8s9Q" name="Verify biometrics"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_ToTxMNvNEfGRqPW6yR8s9Q" name="Display verification error">
-      <extend xmi:type="uml:Extend" xmi:id="_cpzm4NvNEfGRqPW6yR8s9Q" extendedCase="_PsyZwMZ3EfGkoNVKLC9d3A" extensionLocation="_cp0N8NvNEfGRqPW6yR8s9Q"/>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:standard="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+  <uml:Model xmi:id="_oKMZEMZREfG2R6DrYGSo7g" name="COMP5047 CW Diagrams">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_oQSaAMZREfG2R6DrYGSo7g">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Activity" xmi:id="_oPHVUMZREfG2R6DrYGSo7g" name="Activity1"/>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_go4cYMZUEfGkoNVKLC9d3A" name="Student"/>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_O8z74MZXEfGkoNVKLC9d3A" name="Warden Subsystem"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_pmAoEMZXEfGkoNVKLC9d3A" name="Log in">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_F16cgNvGEfGRqPW6yR8s9Q" name="ExtensionPoint2"/>
+      <include xmi:type="uml:Include" xmi:id="_6Y4_kNvFEfGRqPW6yR8s9Q" addition="_sHQF8NvFEfGRqPW6yR8s9Q"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_lu0qoNvNEfGRqPW6yR8s9Q" name="Setup Digital key">
-      <extend xmi:type="uml:Extend" xmi:id="_N4aZsNvOEfGRqPW6yR8s9Q" extendedCase="_PsyZwMZ3EfGkoNVKLC9d3A" extensionLocation="_N4bAwNvOEfGRqPW6yR8s9Q"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_7Gu3kMZ9EfGkoNVKLC9d3A"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_cqu9QMZ_EfGkoNVKLC9d3A"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_epGucMZ_EfGkoNVKLC9d3A"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_unD_8MZ_EfGkoNVKLC9d3A"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_54MV8MZ_EfGkoNVKLC9d3A"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_8eg38MZ_EfGkoNVKLC9d3A"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_CSRmUMaAEfGkoNVKLC9d3A"/>
+    <packagedElement xmi:type="uml:Activity" xmi:id="_FC0nMMxmEfGQc5ZyTyBUKQ" name="Activity22" node="_KBReMMxmEfGQc5ZyTyBUKQ _Mxwo0MxmEfGQc5ZyTyBUKQ _jtwDcMxmEfGQc5ZyTyBUKQ _wGfhwMxmEfGQc5ZyTyBUKQ _Aw8asNHqEfG3K7BKxZY9ag _4nXPANHqEfG3K7BKxZY9ag _8UqnMNHqEfG3K7BKxZY9ag _ORziMNHrEfG3K7BKxZY9ag _zAxvENHsEfG3K7BKxZY9ag _nlMnINHtEfG3K7BKxZY9ag _3WE0ANHvEfG3K7BKxZY9ag _99MR8NHvEfG3K7BKxZY9ag _HizhUNHwEfG3K7BKxZY9ag _cY8pwNHwEfG3K7BKxZY9ag _G30OINHxEfG3K7BKxZY9ag _Oq8MMNHxEfG3K7BKxZY9ag _SbynoNHxEfG3K7BKxZY9ag" group="_HfYJMMxmEfGQc5ZyTyBUKQ _pVaPgMxmEfGQc5ZyTyBUKQ _GD3wENHuEfG3K7BKxZY9ag">
+      <edge xmi:type="uml:ControlFlow" xmi:id="_aarVkMxmEfGQc5ZyTyBUKQ" target="_Mxwo0MxmEfGQc5ZyTyBUKQ" source="_KBReMMxmEfGQc5ZyTyBUKQ"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_2ZRRsNHoEfG3K7BKxZY9ag" target="_jtwDcMxmEfGQc5ZyTyBUKQ" source="_Mxwo0MxmEfGQc5ZyTyBUKQ"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_8QwpgNHoEfG3K7BKxZY9ag" target="_wGfhwMxmEfGQc5ZyTyBUKQ" source="_jtwDcMxmEfGQc5ZyTyBUKQ"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_FqbSINHqEfG3K7BKxZY9ag" target="_Aw8asNHqEfG3K7BKxZY9ag" source="_wGfhwMxmEfGQc5ZyTyBUKQ"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_8VBMgNHqEfG3K7BKxZY9ag" name="[quit sign in]" target="_8UqnMNHqEfG3K7BKxZY9ag" source="_4nXPANHqEfG3K7BKxZY9ag"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_AayIANHrEfG3K7BKxZY9ag" target="_4nXPANHqEfG3K7BKxZY9ag" source="_Aw8asNHqEfG3K7BKxZY9ag"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_OSGdINHrEfG3K7BKxZY9ag" name="[else]" inPartition="_HfYJMMxmEfGQc5ZyTyBUKQ" target="_ORziMNHrEfG3K7BKxZY9ag" source="_4nXPANHqEfG3K7BKxZY9ag"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_zBcdcNHsEfG3K7BKxZY9ag" target="_zAxvENHsEfG3K7BKxZY9ag" source="_ORziMNHrEfG3K7BKxZY9ag"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_nle7ANHtEfG3K7BKxZY9ag" target="_nlMnINHtEfG3K7BKxZY9ag" source="_zAxvENHsEfG3K7BKxZY9ag"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_3WVSsNHvEfG3K7BKxZY9ag" target="_3WE0ANHvEfG3K7BKxZY9ag" source="_nlMnINHtEfG3K7BKxZY9ag"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_99cwoNHvEfG3K7BKxZY9ag" name="[incorrect login]" inPartition="_GD3wENHuEfG3K7BKxZY9ag" target="_99MR8NHvEfG3K7BKxZY9ag" source="_3WE0ANHvEfG3K7BKxZY9ag"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_HjEAANHwEfG3K7BKxZY9ag" name="[correct login]" inPartition="_GD3wENHuEfG3K7BKxZY9ag" target="_HizhUNHwEfG3K7BKxZY9ag" source="_3WE0ANHvEfG3K7BKxZY9ag"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_cZNIcNHwEfG3K7BKxZY9ag" target="_cY8pwNHwEfG3K7BKxZY9ag" source="_HizhUNHwEfG3K7BKxZY9ag"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_it1IMNHwEfG3K7BKxZY9ag" target="_cY8pwNHwEfG3K7BKxZY9ag" source="_99MR8NHvEfG3K7BKxZY9ag"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_G4F68NHxEfG3K7BKxZY9ag" target="_G30OINHxEfG3K7BKxZY9ag" source="_cY8pwNHwEfG3K7BKxZY9ag"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_OrN5ANHxEfG3K7BKxZY9ag" name="[quit sign in]" target="_8UqnMNHqEfG3K7BKxZY9ag" source="_G30OINHxEfG3K7BKxZY9ag"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_ScDtYNHxEfG3K7BKxZY9ag" name="[login success]" inPartition="_HfYJMMxmEfGQc5ZyTyBUKQ" target="_SbynoNHxEfG3K7BKxZY9ag" source="_G30OINHxEfG3K7BKxZY9ag"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_XovNoNHxEfG3K7BKxZY9ag" name="[retry log in]" inPartition="_HfYJMMxmEfGQc5ZyTyBUKQ" target="_ORziMNHrEfG3K7BKxZY9ag" source="_G30OINHxEfG3K7BKxZY9ag"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_bz0RgNHyEfG3K7BKxZY9ag" target="_Oq8MMNHxEfG3K7BKxZY9ag" source="_SbynoNHxEfG3K7BKxZY9ag"/>
+      <group xmi:type="uml:ActivityPartition" xmi:id="_HfYJMMxmEfGQc5ZyTyBUKQ" name="Student" node="_Mxwo0MxmEfGQc5ZyTyBUKQ _4nXPANHqEfG3K7BKxZY9ag _ORziMNHrEfG3K7BKxZY9ag _G30OINHxEfG3K7BKxZY9ag _SbynoNHxEfG3K7BKxZY9ag" edge="_OSGdINHrEfG3K7BKxZY9ag _ScDtYNHxEfG3K7BKxZY9ag _XovNoNHxEfG3K7BKxZY9ag"/>
+      <group xmi:type="uml:ActivityPartition" xmi:id="_pVaPgMxmEfGQc5ZyTyBUKQ" name="UniDorm Student Subsystem" node="_wGfhwMxmEfGQc5ZyTyBUKQ _nlMnINHtEfG3K7BKxZY9ag _cY8pwNHwEfG3K7BKxZY9ag"/>
+      <group xmi:type="uml:ActivityPartition" xmi:id="_GD3wENHuEfG3K7BKxZY9ag" name="Warden Subsystem" node="_3WE0ANHvEfG3K7BKxZY9ag _99MR8NHvEfG3K7BKxZY9ag _HizhUNHwEfG3K7BKxZY9ag" edge="_99cwoNHvEfG3K7BKxZY9ag _HjEAANHwEfG3K7BKxZY9ag"/>
+      <node xmi:type="uml:InitialNode" xmi:id="_KBReMMxmEfGQc5ZyTyBUKQ" name="InitialNode2" outgoing="_aarVkMxmEfGQc5ZyTyBUKQ"/>
+      <node xmi:type="uml:CreateObjectAction" xmi:id="_Mxwo0MxmEfGQc5ZyTyBUKQ" name="Start Student Check in/Out" incoming="_aarVkMxmEfGQc5ZyTyBUKQ" outgoing="_2ZRRsNHoEfG3K7BKxZY9ag" inPartition="_HfYJMMxmEfGQc5ZyTyBUKQ">
+        <handler xmi:type="uml:ExceptionHandler" xmi:id="_ZVhrYMxmEfGQc5ZyTyBUKQ"/>
+      </node>
+      <node xmi:type="uml:CentralBufferNode" xmi:id="_jtwDcMxmEfGQc5ZyTyBUKQ" name="Message to start student check in/Out" incoming="_2ZRRsNHoEfG3K7BKxZY9ag" outgoing="_8QwpgNHoEfG3K7BKxZY9ag">
+        <upperBound xmi:type="uml:LiteralInteger" xmi:id="_jtxRkMxmEfGQc5ZyTyBUKQ" value="1"/>
+      </node>
+      <node xmi:type="uml:CreateObjectAction" xmi:id="_wGfhwMxmEfGQc5ZyTyBUKQ" name="Send Student SSO page" incoming="_8QwpgNHoEfG3K7BKxZY9ag" outgoing="_FqbSINHqEfG3K7BKxZY9ag" inPartition="_pVaPgMxmEfGQc5ZyTyBUKQ"/>
+      <node xmi:type="uml:CentralBufferNode" xmi:id="_Aw8asNHqEfG3K7BKxZY9ag" name="Student SSO Page" incoming="_FqbSINHqEfG3K7BKxZY9ag" outgoing="_AayIANHrEfG3K7BKxZY9ag">
+        <upperBound xmi:type="uml:LiteralInteger" xmi:id="_AxGLsNHqEfG3K7BKxZY9ag" value="1"/>
+      </node>
+      <node xmi:type="uml:DecisionNode" xmi:id="_4nXPANHqEfG3K7BKxZY9ag" name="" incoming="_AayIANHrEfG3K7BKxZY9ag" outgoing="_8VBMgNHqEfG3K7BKxZY9ag _OSGdINHrEfG3K7BKxZY9ag" inPartition="_HfYJMMxmEfGQc5ZyTyBUKQ"/>
+      <node xmi:type="uml:ActivityFinalNode" xmi:id="_8UqnMNHqEfG3K7BKxZY9ag" name="" incoming="_8VBMgNHqEfG3K7BKxZY9ag _OrN5ANHxEfG3K7BKxZY9ag"/>
+      <node xmi:type="uml:AddVariableValueAction" xmi:id="_ORziMNHrEfG3K7BKxZY9ag" name="Sign in on Uni SSO Page" incoming="_OSGdINHrEfG3K7BKxZY9ag _XovNoNHxEfG3K7BKxZY9ag" outgoing="_zBcdcNHsEfG3K7BKxZY9ag" inPartition="_HfYJMMxmEfGQc5ZyTyBUKQ"/>
+      <node xmi:type="uml:CentralBufferNode" xmi:id="_zAxvENHsEfG3K7BKxZY9ag" name="Message to get respone from SSO page" incoming="_zBcdcNHsEfG3K7BKxZY9ag" outgoing="_nle7ANHtEfG3K7BKxZY9ag">
+        <upperBound xmi:type="uml:LiteralInteger" xmi:id="_zAy9MNHsEfG3K7BKxZY9ag" value="1"/>
+      </node>
+      <node xmi:type="uml:CreateObjectAction" xmi:id="_nlMnINHtEfG3K7BKxZY9ag" name="Request SSO Sign in response" incoming="_nle7ANHtEfG3K7BKxZY9ag" outgoing="_3WVSsNHvEfG3K7BKxZY9ag" inPartition="_pVaPgMxmEfGQc5ZyTyBUKQ"/>
+      <node xmi:type="uml:DecisionNode" xmi:id="_3WE0ANHvEfG3K7BKxZY9ag" name="" incoming="_3WVSsNHvEfG3K7BKxZY9ag" outgoing="_99cwoNHvEfG3K7BKxZY9ag _HjEAANHwEfG3K7BKxZY9ag" inPartition="_GD3wENHuEfG3K7BKxZY9ag"/>
+      <node xmi:type="uml:CreateObjectAction" xmi:id="_99MR8NHvEfG3K7BKxZY9ag" name="Send login reject message" incoming="_99cwoNHvEfG3K7BKxZY9ag" outgoing="_it1IMNHwEfG3K7BKxZY9ag" inPartition="_GD3wENHuEfG3K7BKxZY9ag"/>
+      <node xmi:type="uml:CreateObjectAction" xmi:id="_HizhUNHwEfG3K7BKxZY9ag" name="Send login accepted message" incoming="_HjEAANHwEfG3K7BKxZY9ag" outgoing="_cZNIcNHwEfG3K7BKxZY9ag" inPartition="_GD3wENHuEfG3K7BKxZY9ag"/>
+      <node xmi:type="uml:CreateObjectAction" xmi:id="_cY8pwNHwEfG3K7BKxZY9ag" name="Send SSO Response" incoming="_cZNIcNHwEfG3K7BKxZY9ag _it1IMNHwEfG3K7BKxZY9ag" outgoing="_G4F68NHxEfG3K7BKxZY9ag" inPartition="_pVaPgMxmEfGQc5ZyTyBUKQ"/>
+      <node xmi:type="uml:DecisionNode" xmi:id="_G30OINHxEfG3K7BKxZY9ag" name="" incoming="_G4F68NHxEfG3K7BKxZY9ag" outgoing="_OrN5ANHxEfG3K7BKxZY9ag _ScDtYNHxEfG3K7BKxZY9ag _XovNoNHxEfG3K7BKxZY9ag" inPartition="_HfYJMMxmEfGQc5ZyTyBUKQ"/>
+      <node xmi:type="uml:ActivityFinalNode" xmi:id="_Oq8MMNHxEfG3K7BKxZY9ag" name="" incoming="_bz0RgNHyEfG3K7BKxZY9ag"/>
+      <node xmi:type="uml:CreateObjectAction" xmi:id="_SbynoNHxEfG3K7BKxZY9ag" name="Load Student account" incoming="_ScDtYNHxEfG3K7BKxZY9ag" outgoing="_bz0RgNHyEfG3K7BKxZY9ag" inPartition="_HfYJMMxmEfGQc5ZyTyBUKQ"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="__r1GkNvKEfGRqPW6yR8s9Q" name="Setup direct debit"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_jd6a4MZ3EfGkoNVKLC9d3A" name="Parcel Collection">
-      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_cp0N8NvNEfGRqPW6yR8s9Q" name="ExtensionPoint1"/>
-      <include xmi:type="uml:Include" xmi:id="_EWwAwNvPEfGRqPW6yR8s9Q" addition="_5GTnQNvOEfGRqPW6yR8s9Q"/>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_UY2MYNvEEfGRqPW6yR8s9Q" name="Accomodation Office"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_sHQF8NvFEfGRqPW6yR8s9Q" name="Verify SSO details"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_LwTP8NvJEfGRqPW6yR8s9Q" name="Select Room">
+      <include xmi:type="uml:Include" xmi:id="_NCZ7kNvKEfGRqPW6yR8s9Q" addition="_9UppQNvJEfGRqPW6yR8s9Q"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_hBp-YMZ4EfGkoNVKLC9d3A" name="Facility Booking">
-      <include xmi:type="uml:Include" xmi:id="_jv9fUNvPEfGRqPW6yR8s9Q" addition="_VhE-wNvPEfGRqPW6yR8s9Q"/>
-      <include xmi:type="uml:Include" xmi:id="_9jUvsNvPEfGRqPW6yR8s9Q" addition="_30lrQNvPEfGRqPW6yR8s9Q"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_9UppQNvJEfGRqPW6yR8s9Q" name="Enter lifestyle preferences"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_jcHvkNvKEfGRqPW6yR8s9Q"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_8-XawNvKEfGRqPW6yR8s9Q" name="Sign tenancy agreement">
+      <include xmi:type="uml:Include" xmi:id="_WPA_oNvLEfGRqPW6yR8s9Q" addition="__r1GkNvKEfGRqPW6yR8s9Q"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_pk05UMZ4EfGkoNVKLC9d3A" name="Vistor Management">
-      <include xmi:type="uml:Include" xmi:id="_ygKHwNvQEfGRqPW6yR8s9Q" addition="_rbtNkNvQEfGRqPW6yR8s9Q"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_YhsM4NvLEfGRqPW6yR8s9Q"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_e3NkgNvLEfGRqPW6yR8s9Q" name="UniDrom Student Mobile Subsystem">
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_6yIXQNvLEfGRqPW6yR8s9Q" name="Select room to tour"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_wBWf0NvMEfGRqPW6yR8s9Q" name="Verify biometrics"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_ToTxMNvNEfGRqPW6yR8s9Q" name="Display verification error">
+        <extend xmi:type="uml:Extend" xmi:id="_cpzm4NvNEfGRqPW6yR8s9Q" extendedCase="_PsyZwMZ3EfGkoNVKLC9d3A" extensionLocation="_cp0N8NvNEfGRqPW6yR8s9Q"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_lu0qoNvNEfGRqPW6yR8s9Q" name="Setup Digital key">
+        <extend xmi:type="uml:Extend" xmi:id="_N4aZsNvOEfGRqPW6yR8s9Q" extendedCase="_PsyZwMZ3EfGkoNVKLC9d3A" extensionLocation="_N4bAwNvOEfGRqPW6yR8s9Q"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="__r1GkNvKEfGRqPW6yR8s9Q" name="Setup direct debit"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_jd6a4MZ3EfGkoNVKLC9d3A" name="Parcel Collection">
+        <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_cp0N8NvNEfGRqPW6yR8s9Q" name="ExtensionPoint1"/>
+        <include xmi:type="uml:Include" xmi:id="_EWwAwNvPEfGRqPW6yR8s9Q" addition="_5GTnQNvOEfGRqPW6yR8s9Q"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_hBp-YMZ4EfGkoNVKLC9d3A" name="Facility Booking">
+        <include xmi:type="uml:Include" xmi:id="_jv9fUNvPEfGRqPW6yR8s9Q" addition="_VhE-wNvPEfGRqPW6yR8s9Q"/>
+        <include xmi:type="uml:Include" xmi:id="_9jUvsNvPEfGRqPW6yR8s9Q" addition="_30lrQNvPEfGRqPW6yR8s9Q"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_pk05UMZ4EfGkoNVKLC9d3A" name="Vistor Management">
+        <include xmi:type="uml:Include" xmi:id="_ygKHwNvQEfGRqPW6yR8s9Q" addition="_rbtNkNvQEfGRqPW6yR8s9Q"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_yEVKUMZ6EfGkoNVKLC9d3A" name="Tickets">
+        <include xmi:type="uml:Include" xmi:id="_KoaTANxGEfGRqPW6yR8s9Q" addition="_HiENINxGEfGRqPW6yR8s9Q"/>
+        <include xmi:type="uml:Include" xmi:id="_ZwDnkNxGEfGRqPW6yR8s9Q" addition="_Uq8u8NxGEfGRqPW6yR8s9Q"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_KZeJMMZ7EfGkoNVKLC9d3A" name="Check in/Out">
+        <include xmi:type="uml:Include" xmi:id="_oizJQNztEfGa8s8SKkRHKw" addition="_kys7wNztEfGa8s8SKkRHKw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_5GTnQNvOEfGRqPW6yR8s9Q" name="Get parcel QR code"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_VhE-wNvPEfGRqPW6yR8s9Q" name="Show live state of facilites"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_PsyZwMZ3EfGkoNVKLC9d3A" name="Digital Keys">
+        <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_N4bAwNvOEfGRqPW6yR8s9Q" name="ExtensionPoint2"/>
+        <include xmi:type="uml:Include" xmi:id="_Ptb3ENvNEfGRqPW6yR8s9Q" addition="_wBWf0NvMEfGRqPW6yR8s9Q"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_30lrQNvPEfGRqPW6yR8s9Q" name="Book facilities"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_rbtNkNvQEfGRqPW6yR8s9Q" name="Create visitor QR code">
+        <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_kLO34NxEEfGRqPW6yR8s9Q" name="ExtensionPoint1"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_WYNz8NxEEfGRqPW6yR8s9Q" name="Request additional amenities">
+        <extend xmi:type="uml:Extend" xmi:id="_kLOQ0NxEEfGRqPW6yR8s9Q" extendedCase="_rbtNkNvQEfGRqPW6yR8s9Q" extensionLocation="_kLO34NxEEfGRqPW6yR8s9Q"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_HiENINxGEfGRqPW6yR8s9Q" name="Create Maintainance ticket"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_Uq8u8NxGEfGRqPW6yR8s9Q" name="Track maintainance ticket"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_kys7wNztEfGa8s8SKkRHKw" name="Scan room"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_geDpcMZ1EfGkoNVKLC9d3A" name="Virtual Tour">
+        <include xmi:type="uml:Include" xmi:id="_A7MAMNvMEfGRqPW6yR8s9Q" addition="_6yIXQNvLEfGRqPW6yR8s9Q"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="__fK7oMZ2EfGkoNVKLC9d3A" name="Digital Contracts">
+        <include xmi:type="uml:Include" xmi:id="_PGNJ4NvLEfGRqPW6yR8s9Q" addition="_8-XawNvKEfGRqPW6yR8s9Q"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_wgUX8NvFEfGRqPW6yR8s9Q" name="Display Login Error">
+        <extend xmi:type="uml:Extend" xmi:id="_F151cNvGEfGRqPW6yR8s9Q" extendedCase="_pmAoEMZXEfGkoNVKLC9d3A" extensionLocation="_F16cgNvGEfGRqPW6yR8s9Q"/>
+      </packagedElement>
     </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_yEVKUMZ6EfGkoNVKLC9d3A" name="Tickets">
-      <include xmi:type="uml:Include" xmi:id="_KoaTANxGEfGRqPW6yR8s9Q" addition="_HiENINxGEfGRqPW6yR8s9Q"/>
-      <include xmi:type="uml:Include" xmi:id="_ZwDnkNxGEfGRqPW6yR8s9Q" addition="_Uq8u8NxGEfGRqPW6yR8s9Q"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ZPauMNvOEfGRqPW6yR8s9Q"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_HXuecNvPEfGRqPW6yR8s9Q"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_lrFvQNvPEfGRqPW6yR8s9Q"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_-t994NvPEfGRqPW6yR8s9Q"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_0ORPYNvQEfGRqPW6yR8s9Q"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="__bHaQNzsEfGa8s8SKkRHKw" memberEnd="__bQkMNzsEfGa8s8SKkRHKw __bRyUNzsEfGa8s8SKkRHKw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__bP9INzsEfGa8s8SKkRHKw" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__bP9IdzsEfGa8s8SKkRHKw" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="__bQkMNzsEfGa8s8SKkRHKw" name="warden subsystem" type="_O8z74MZXEfGkoNVKLC9d3A" association="__bHaQNzsEfGa8s8SKkRHKw"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="__bRyUNzsEfGa8s8SKkRHKw" name="create maintainance ticket" type="_HiENINxGEfGRqPW6yR8s9Q" association="__bHaQNzsEfGa8s8SKkRHKw"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_KZeJMMZ7EfGkoNVKLC9d3A" name="Check in/Out">
-      <include xmi:type="uml:Include" xmi:id="_oizJQNztEfGa8s8SKkRHKw" addition="_kys7wNztEfGa8s8SKkRHKw"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_MaQxQNztEfGa8s8SKkRHKw" memberEnd="_MaSmctztEfGa8s8SKkRHKw _MaTNgNztEfGa8s8SKkRHKw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MaSmcNztEfGa8s8SKkRHKw" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MaSmcdztEfGa8s8SKkRHKw" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_MaSmctztEfGa8s8SKkRHKw" name="accomodation office" type="_UY2MYNvEEfGRqPW6yR8s9Q" association="_MaQxQNztEfGa8s8SKkRHKw"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_MaTNgNztEfGa8s8SKkRHKw" name="request additional amenities" type="_WYNz8NxEEfGRqPW6yR8s9Q" association="_MaQxQNztEfGa8s8SKkRHKw"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_5GTnQNvOEfGRqPW6yR8s9Q" name="Get parcel QR code"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_VhE-wNvPEfGRqPW6yR8s9Q" name="Show live state of facilites"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_PsyZwMZ3EfGkoNVKLC9d3A" name="Digital Keys">
-      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_N4bAwNvOEfGRqPW6yR8s9Q" name="ExtensionPoint2"/>
-      <include xmi:type="uml:Include" xmi:id="_Ptb3ENvNEfGRqPW6yR8s9Q" addition="_wBWf0NvMEfGRqPW6yR8s9Q"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_XMp80NztEfGa8s8SKkRHKw" memberEnd="_XMrK8tztEfGa8s8SKkRHKw _XMrK89ztEfGa8s8SKkRHKw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_XMrK8NztEfGa8s8SKkRHKw" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XMrK8dztEfGa8s8SKkRHKw" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_XMrK8tztEfGa8s8SKkRHKw" name="warden subsystem" type="_O8z74MZXEfGkoNVKLC9d3A" association="_XMp80NztEfGa8s8SKkRHKw"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_XMrK89ztEfGa8s8SKkRHKw" name="track maintainance ticket" type="_Uq8u8NxGEfGRqPW6yR8s9Q" association="_XMp80NztEfGa8s8SKkRHKw"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_30lrQNvPEfGRqPW6yR8s9Q" name="Book facilities"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_rbtNkNvQEfGRqPW6yR8s9Q" name="Create visitor QR code">
-      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_kLO34NxEEfGRqPW6yR8s9Q" name="ExtensionPoint1"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_IqhToNzuEfGa8s8SKkRHKw" memberEnd="_IqjI0dzuEfGa8s8SKkRHKw _IqjI0tzuEfGa8s8SKkRHKw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IqihwNzuEfGa8s8SKkRHKw" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IqjI0NzuEfGa8s8SKkRHKw" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_IqjI0dzuEfGa8s8SKkRHKw" name="select room" type="_LwTP8NvJEfGRqPW6yR8s9Q" association="_IqhToNzuEfGa8s8SKkRHKw"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_IqjI0tzuEfGa8s8SKkRHKw" name="student" type="_go4cYMZUEfGkoNVKLC9d3A" association="_IqhToNzuEfGa8s8SKkRHKw"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_WYNz8NxEEfGRqPW6yR8s9Q" name="Request additional amenities">
-      <extend xmi:type="uml:Extend" xmi:id="_kLOQ0NxEEfGRqPW6yR8s9Q" extendedCase="_rbtNkNvQEfGRqPW6yR8s9Q" extensionLocation="_kLO34NxEEfGRqPW6yR8s9Q"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_cz3AcNzuEfGa8s8SKkRHKw" memberEnd="_cz3ngtzuEfGa8s8SKkRHKw _cz3ng9zuEfGa8s8SKkRHKw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_cz3ngNzuEfGa8s8SKkRHKw" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cz3ngdzuEfGa8s8SKkRHKw" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_cz3ngtzuEfGa8s8SKkRHKw" name="digital contracts" type="__fK7oMZ2EfGkoNVKLC9d3A" association="_cz3AcNzuEfGa8s8SKkRHKw"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_cz3ng9zuEfGa8s8SKkRHKw" name="student" type="_go4cYMZUEfGkoNVKLC9d3A" association="_cz3AcNzuEfGa8s8SKkRHKw"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_HiENINxGEfGRqPW6yR8s9Q" name="Create Maintainance ticket"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_Uq8u8NxGEfGRqPW6yR8s9Q" name="Track maintainance ticket"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_kys7wNztEfGa8s8SKkRHKw" name="Scan room"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_geDpcMZ1EfGkoNVKLC9d3A" name="Virtual Tour">
-      <include xmi:type="uml:Include" xmi:id="_A7MAMNvMEfGRqPW6yR8s9Q" addition="_6yIXQNvLEfGRqPW6yR8s9Q"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ptrykNzuEfGa8s8SKkRHKw" memberEnd="_pttnwtzuEfGa8s8SKkRHKw _pttnw9zuEfGa8s8SKkRHKw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pttnwNzuEfGa8s8SKkRHKw" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pttnwdzuEfGa8s8SKkRHKw" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_pttnwtzuEfGa8s8SKkRHKw" name="accomodation office" type="_UY2MYNvEEfGRqPW6yR8s9Q" association="_ptrykNzuEfGa8s8SKkRHKw"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_pttnw9zuEfGa8s8SKkRHKw" name="scan room" type="_kys7wNztEfGa8s8SKkRHKw" association="_ptrykNzuEfGa8s8SKkRHKw"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="__fK7oMZ2EfGkoNVKLC9d3A" name="Digital Contracts">
-      <include xmi:type="uml:Include" xmi:id="_PGNJ4NvLEfGRqPW6yR8s9Q" addition="_8-XawNvKEfGRqPW6yR8s9Q"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_wOo-INzuEfGa8s8SKkRHKw" memberEnd="_wOqzUtzuEfGa8s8SKkRHKw _wOraYNzuEfGa8s8SKkRHKw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wOqzUNzuEfGa8s8SKkRHKw" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wOqzUdzuEfGa8s8SKkRHKw" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_wOqzUtzuEfGa8s8SKkRHKw" name="accomodation office" type="_UY2MYNvEEfGRqPW6yR8s9Q" association="_wOo-INzuEfGa8s8SKkRHKw"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_wOraYNzuEfGa8s8SKkRHKw" name="select room to tour" type="_6yIXQNvLEfGRqPW6yR8s9Q" association="_wOo-INzuEfGa8s8SKkRHKw"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_wgUX8NvFEfGRqPW6yR8s9Q" name="Display Login Error">
-      <extend xmi:type="uml:Extend" xmi:id="_F151cNvGEfGRqPW6yR8s9Q" extendedCase="_pmAoEMZXEfGkoNVKLC9d3A" extensionLocation="_F16cgNvGEfGRqPW6yR8s9Q"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_Uy0qUOdDEfGruP9K3kFo-w" name="StudentMobileApp">
+      <nestedClassifier xmi:type="uml:Interface" xmi:id="_7UmigOdNEfGU1-_GF4Uuuw" name="Login"/>
+      <nestedClassifier xmi:type="uml:Interface" xmi:id="_qoDeIOd4EfGEXqwfBBJUCw" name="GetSessionToken"/>
+      <nestedClassifier xmi:type="uml:Interface" xmi:id="_b-rIAOd6EfGEXqwfBBJUCw" name=""/>
+      <nestedClassifier xmi:type="uml:Interface" xmi:id="_2-C4gOd6EfGEXqwfBBJUCw" name=""/>
+      <nestedClassifier xmi:type="uml:Interface" xmi:id="_MhDG8Od7EfGEXqwfBBJUCw" name=""/>
+      <nestedClassifier xmi:type="uml:Interface" xmi:id="_sKwfoOd7EfGEXqwfBBJUCw" name=""/>
+      <nestedClassifier xmi:type="uml:Interface" xmi:id="_LdSHYOd8EfGEXqwfBBJUCw" name=""/>
+      <nestedClassifier xmi:type="uml:Interface" xmi:id="_m42EoOd8EfGEXqwfBBJUCw" name=""/>
+      <nestedClassifier xmi:type="uml:Interface" xmi:id="_l66K0Od-EfGEXqwfBBJUCw" name=""/>
+      <nestedClassifier xmi:type="uml:Interface" xmi:id="_zelyQOd-EfGEXqwfBBJUCw" name=""/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_rg7vEOdFEfGU1-_GF4Uuuw" name="Student GUI" isIndirectlyInstantiated="false">
+        <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_b-8NwOd6EfGEXqwfBBJUCw" name="&lt;&lt;use>>" client="_rg7vEOdFEfGU1-_GF4Uuuw" supplier="_b-rIAOd6EfGEXqwfBBJUCw" contract="_b-rIAOd6EfGEXqwfBBJUCw"/>
+        <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_7U4PUOdNEfGU1-_GF4Uuuw" name="&lt;&lt;use>>" client="_rg7vEOdFEfGU1-_GF4Uuuw" supplier="_7UmigOdNEfGU1-_GF4Uuuw" contract="_7UmigOdNEfGU1-_GF4Uuuw"/>
+        <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_2-VMYOd6EfGEXqwfBBJUCw" name="&lt;&lt;use>>" client="_rg7vEOdFEfGU1-_GF4Uuuw" supplier="_2-C4gOd6EfGEXqwfBBJUCw" contract="_2-C4gOd6EfGEXqwfBBJUCw"/>
+        <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_MhUMsOd7EfGEXqwfBBJUCw" name="&lt;&lt;use>>" client="_rg7vEOdFEfGU1-_GF4Uuuw" supplier="_MhDG8Od7EfGEXqwfBBJUCw" contract="_MhDG8Od7EfGEXqwfBBJUCw"/>
+        <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_sLA-UOd7EfGEXqwfBBJUCw" name="&lt;&lt;use>>" client="_rg7vEOdFEfGU1-_GF4Uuuw" supplier="_sKwfoOd7EfGEXqwfBBJUCw" contract="_sKwfoOd7EfGEXqwfBBJUCw"/>
+        <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_LdjNIOd8EfGEXqwfBBJUCw" name="&lt;&lt;use>>" client="_rg7vEOdFEfGU1-_GF4Uuuw" supplier="_LdSHYOd8EfGEXqwfBBJUCw" contract="_LdSHYOd8EfGEXqwfBBJUCw"/>
+        <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_m5JmoOd8EfGEXqwfBBJUCw" name="&lt;&lt;use>>" client="_rg7vEOdFEfGU1-_GF4Uuuw" supplier="_m42EoOd8EfGEXqwfBBJUCw" contract="_m42EoOd8EfGEXqwfBBJUCw"/>
+        <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_l7Z6EOd-EfGEXqwfBBJUCw" name="&lt;&lt;use>>" client="_rg7vEOdFEfGU1-_GF4Uuuw" supplier="_l66K0Od-EfGEXqwfBBJUCw" contract="_l66K0Od-EfGEXqwfBBJUCw"/>
+        <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_AhBGwOd_EfGEXqwfBBJUCw" name="&lt;&lt;use>>" client="_rg7vEOdFEfGU1-_GF4Uuuw" supplier="_zelyQOd-EfGEXqwfBBJUCw" contract="_zelyQOd-EfGEXqwfBBJUCw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_wWcFcOdFEfGU1-_GF4Uuuw" name="Student Data Manager">
+        <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_3iX_gOd4EfGEXqwfBBJUCw" name="&lt;&lt;use>>" client="_wWcFcOdFEfGU1-_GF4Uuuw" supplier="_qoDeIOd4EfGEXqwfBBJUCw" contract="_qoDeIOd4EfGEXqwfBBJUCw"/>
+        <packagedElement xmi:type="uml:Usage" xmi:id="_OLJfAOeAEfGEXqwfBBJUCw" client="_wWcFcOdFEfGU1-_GF4Uuuw" supplier="_OK5AUOeAEfGEXqwfBBJUCw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_CsvHUOdGEfGU1-_GF4Uuuw" name="Contract Manager">
+        <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_JwVkwOd5EfGEXqwfBBJUCw" name="&lt;&lt;use>>" client="_CsvHUOdGEfGU1-_GF4Uuuw" supplier="_qoDeIOd4EfGEXqwfBBJUCw" contract="_qoDeIOd4EfGEXqwfBBJUCw"/>
+        <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_UexLcOd7EfGEXqwfBBJUCw" name="ViewContract" client="_CsvHUOdGEfGU1-_GF4Uuuw" supplier="_MhDG8Od7EfGEXqwfBBJUCw" contract="_MhDG8Od7EfGEXqwfBBJUCw"/>
+        <packagedElement xmi:type="uml:Usage" xmi:id="__vPc0OeEEfGEXqwfBBJUCw" client="_CsvHUOdGEfGU1-_GF4Uuuw" supplier="__ujgUOeEEfGEXqwfBBJUCw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_cd1G0OdGEfGU1-_GF4Uuuw" name="Maintainence Manager">
+        <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_SWgJUOd5EfGEXqwfBBJUCw" name="&lt;&lt;use>>" client="_cd1G0OdGEfGU1-_GF4Uuuw" supplier="_qoDeIOd4EfGEXqwfBBJUCw" contract="_qoDeIOd4EfGEXqwfBBJUCw"/>
+        <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_2WD2AOd7EfGEXqwfBBJUCw" name="ViewMaintainence" client="_cd1G0OdGEfGU1-_GF4Uuuw" supplier="_sKwfoOd7EfGEXqwfBBJUCw" contract="_sKwfoOd7EfGEXqwfBBJUCw"/>
+        <packagedElement xmi:type="uml:Usage" xmi:id="_UZJqoOeGEfGEXqwfBBJUCw" client="_cd1G0OdGEfGU1-_GF4Uuuw" supplier="_UYY1oOeGEfGEXqwfBBJUCw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_mwT74OdJEfGU1-_GF4Uuuw" name="Facility Booking Manager">
+        <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_Y1tBYOd5EfGEXqwfBBJUCw" name="&lt;&lt;use>>" client="_mwT74OdJEfGU1-_GF4Uuuw" supplier="_qoDeIOd4EfGEXqwfBBJUCw" contract="_qoDeIOd4EfGEXqwfBBJUCw"/>
+        <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_QJjpQOd8EfGEXqwfBBJUCw" name="BookFacilities" client="_mwT74OdJEfGU1-_GF4Uuuw" supplier="_LdSHYOd8EfGEXqwfBBJUCw" contract="_LdSHYOd8EfGEXqwfBBJUCw"/>
+        <packagedElement xmi:type="uml:Usage" xmi:id="_Yccg8OeGEfGEXqwfBBJUCw" client="_mwT74OdJEfGU1-_GF4Uuuw" supplier="_YcHJwOeGEfGEXqwfBBJUCw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_L3GL0OdLEfGU1-_GF4Uuuw" name="Visitor Manager">
+        <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_yKEooOd5EfGEXqwfBBJUCw" name="&lt;&lt;use>>" client="_L3GL0OdLEfGU1-_GF4Uuuw" supplier="_qoDeIOd4EfGEXqwfBBJUCw" contract="_qoDeIOd4EfGEXqwfBBJUCw"/>
+        <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_rOWsUOd8EfGEXqwfBBJUCw" name="ManageVisitors" client="_L3GL0OdLEfGU1-_GF4Uuuw" supplier="_m42EoOd8EfGEXqwfBBJUCw" contract="_m42EoOd8EfGEXqwfBBJUCw"/>
+        <packagedElement xmi:type="uml:Usage" xmi:id="_rJi5QOeGEfGEXqwfBBJUCw" client="_L3GL0OdLEfGU1-_GF4Uuuw" supplier="_rJDxEOeGEfGEXqwfBBJUCw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_VerxIOdLEfGU1-_GF4Uuuw" name="Digital Key Manager">
+        <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_KdXNYOd6EfGEXqwfBBJUCw" name="&lt;&lt;use>>" client="_VerxIOdLEfGU1-_GF4Uuuw" supplier="_qoDeIOd4EfGEXqwfBBJUCw" contract="_qoDeIOd4EfGEXqwfBBJUCw"/>
+        <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_qe0a4Od-EfGEXqwfBBJUCw" name="ManageKeys" client="_VerxIOdLEfGU1-_GF4Uuuw" supplier="_l66K0Od-EfGEXqwfBBJUCw" contract="_l66K0Od-EfGEXqwfBBJUCw"/>
+        <packagedElement xmi:type="uml:Usage" xmi:id="_Aly_cOeHEfGEXqwfBBJUCw" client="_VerxIOdLEfGU1-_GF4Uuuw" supplier="_Ale2YOeHEfGEXqwfBBJUCw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_1SW-IOdLEfGU1-_GF4Uuuw" name="Room Allocation Manager">
+        <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_8ksp4Od4EfGEXqwfBBJUCw" name="&lt;&lt;use>>" client="_1SW-IOdLEfGU1-_GF4Uuuw" supplier="_qoDeIOd4EfGEXqwfBBJUCw" contract="_qoDeIOd4EfGEXqwfBBJUCw"/>
+        <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_BR8xQOd7EfGEXqwfBBJUCw" name="RoomAllocation" client="_1SW-IOdLEfGU1-_GF4Uuuw" supplier="_2-C4gOd6EfGEXqwfBBJUCw" contract="_2-C4gOd6EfGEXqwfBBJUCw"/>
+        <packagedElement xmi:type="uml:Usage" xmi:id="_P-gysOeDEfGEXqwfBBJUCw" client="_1SW-IOdLEfGU1-_GF4Uuuw" supplier="_P-DfsOeDEfGEXqwfBBJUCw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_gIXTgOd1EfGU1-_GF4Uuuw" name="Room Tour Manager">
+        <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_ieUE8Od6EfGEXqwfBBJUCw" name="RoomTour" client="_gIXTgOd1EfGU1-_GF4Uuuw" supplier="_b-rIAOd6EfGEXqwfBBJUCw" contract="_b-rIAOd6EfGEXqwfBBJUCw"/>
+        <packagedElement xmi:type="uml:Usage" xmi:id="_nuk18OeAEfGEXqwfBBJUCw" client="_gIXTgOd1EfGU1-_GF4Uuuw" supplier="_nuTwMOeAEfGEXqwfBBJUCw"/>
+      </packagedElement>
     </packagedElement>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_ZPauMNvOEfGRqPW6yR8s9Q"/>
-  <packagedElement xmi:type="uml:Association" xmi:id="_HXuecNvPEfGRqPW6yR8s9Q"/>
-  <packagedElement xmi:type="uml:Association" xmi:id="_lrFvQNvPEfGRqPW6yR8s9Q"/>
-  <packagedElement xmi:type="uml:Association" xmi:id="_-t994NvPEfGRqPW6yR8s9Q"/>
-  <packagedElement xmi:type="uml:Association" xmi:id="_0ORPYNvQEfGRqPW6yR8s9Q"/>
-  <packagedElement xmi:type="uml:Association" xmi:id="__bHaQNzsEfGa8s8SKkRHKw" memberEnd="__bQkMNzsEfGa8s8SKkRHKw __bRyUNzsEfGa8s8SKkRHKw">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__bP9INzsEfGa8s8SKkRHKw" source="org.eclipse.papyrus">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__bP9IdzsEfGa8s8SKkRHKw" key="nature" value="UML_Nature"/>
-    </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="__bQkMNzsEfGa8s8SKkRHKw" name="warden subsystem" type="_O8z74MZXEfGkoNVKLC9d3A" association="__bHaQNzsEfGa8s8SKkRHKw"/>
-    <ownedEnd xmi:type="uml:Property" xmi:id="__bRyUNzsEfGa8s8SKkRHKw" name="create maintainance ticket" type="_HiENINxGEfGRqPW6yR8s9Q" association="__bHaQNzsEfGa8s8SKkRHKw"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_MaQxQNztEfGa8s8SKkRHKw" memberEnd="_MaSmctztEfGa8s8SKkRHKw _MaTNgNztEfGa8s8SKkRHKw">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MaSmcNztEfGa8s8SKkRHKw" source="org.eclipse.papyrus">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MaSmcdztEfGa8s8SKkRHKw" key="nature" value="UML_Nature"/>
-    </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_MaSmctztEfGa8s8SKkRHKw" name="accomodation office" type="_UY2MYNvEEfGRqPW6yR8s9Q" association="_MaQxQNztEfGa8s8SKkRHKw"/>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_MaTNgNztEfGa8s8SKkRHKw" name="request additional amenities" type="_WYNz8NxEEfGRqPW6yR8s9Q" association="_MaQxQNztEfGa8s8SKkRHKw"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_XMp80NztEfGa8s8SKkRHKw" memberEnd="_XMrK8tztEfGa8s8SKkRHKw _XMrK89ztEfGa8s8SKkRHKw">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_XMrK8NztEfGa8s8SKkRHKw" source="org.eclipse.papyrus">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XMrK8dztEfGa8s8SKkRHKw" key="nature" value="UML_Nature"/>
-    </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_XMrK8tztEfGa8s8SKkRHKw" name="warden subsystem" type="_O8z74MZXEfGkoNVKLC9d3A" association="_XMp80NztEfGa8s8SKkRHKw"/>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_XMrK89ztEfGa8s8SKkRHKw" name="track maintainance ticket" type="_Uq8u8NxGEfGRqPW6yR8s9Q" association="_XMp80NztEfGa8s8SKkRHKw"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_IqhToNzuEfGa8s8SKkRHKw" memberEnd="_IqjI0dzuEfGa8s8SKkRHKw _IqjI0tzuEfGa8s8SKkRHKw">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IqihwNzuEfGa8s8SKkRHKw" source="org.eclipse.papyrus">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IqjI0NzuEfGa8s8SKkRHKw" key="nature" value="UML_Nature"/>
-    </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_IqjI0dzuEfGa8s8SKkRHKw" name="select room" type="_LwTP8NvJEfGRqPW6yR8s9Q" association="_IqhToNzuEfGa8s8SKkRHKw"/>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_IqjI0tzuEfGa8s8SKkRHKw" name="student" type="_go4cYMZUEfGkoNVKLC9d3A" association="_IqhToNzuEfGa8s8SKkRHKw"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_cz3AcNzuEfGa8s8SKkRHKw" memberEnd="_cz3ngtzuEfGa8s8SKkRHKw _cz3ng9zuEfGa8s8SKkRHKw">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_cz3ngNzuEfGa8s8SKkRHKw" source="org.eclipse.papyrus">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cz3ngdzuEfGa8s8SKkRHKw" key="nature" value="UML_Nature"/>
-    </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_cz3ngtzuEfGa8s8SKkRHKw" name="digital contracts" type="__fK7oMZ2EfGkoNVKLC9d3A" association="_cz3AcNzuEfGa8s8SKkRHKw"/>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_cz3ng9zuEfGa8s8SKkRHKw" name="student" type="_go4cYMZUEfGkoNVKLC9d3A" association="_cz3AcNzuEfGa8s8SKkRHKw"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_ptrykNzuEfGa8s8SKkRHKw" memberEnd="_pttnwtzuEfGa8s8SKkRHKw _pttnw9zuEfGa8s8SKkRHKw">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pttnwNzuEfGa8s8SKkRHKw" source="org.eclipse.papyrus">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pttnwdzuEfGa8s8SKkRHKw" key="nature" value="UML_Nature"/>
-    </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_pttnwtzuEfGa8s8SKkRHKw" name="accomodation office" type="_UY2MYNvEEfGRqPW6yR8s9Q" association="_ptrykNzuEfGa8s8SKkRHKw"/>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_pttnw9zuEfGa8s8SKkRHKw" name="scan room" type="_kys7wNztEfGa8s8SKkRHKw" association="_ptrykNzuEfGa8s8SKkRHKw"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_wOo-INzuEfGa8s8SKkRHKw" memberEnd="_wOqzUtzuEfGa8s8SKkRHKw _wOraYNzuEfGa8s8SKkRHKw">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wOqzUNzuEfGa8s8SKkRHKw" source="org.eclipse.papyrus">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wOqzUdzuEfGa8s8SKkRHKw" key="nature" value="UML_Nature"/>
-    </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_wOqzUtzuEfGa8s8SKkRHKw" name="accomodation office" type="_UY2MYNvEEfGRqPW6yR8s9Q" association="_wOo-INzuEfGa8s8SKkRHKw"/>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_wOraYNzuEfGa8s8SKkRHKw" name="select room to tour" type="_6yIXQNvLEfGRqPW6yR8s9Q" association="_wOo-INzuEfGa8s8SKkRHKw"/>
-  </packagedElement>
-</uml:Model>
+    <packagedElement xmi:type="uml:Component" xmi:id="_nEyl0OdDEfGruP9K3kFo-w" name="SSO Connection Manager ">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_YJGBkOdOEfGU1-_GF4Uuuw" client="_nEyl0OdDEfGruP9K3kFo-w" supplier="_7UmigOdNEfGU1-_GF4Uuuw" contract="_7UmigOdNEfGU1-_GF4Uuuw"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_qoaDcOd4EfGEXqwfBBJUCw" client="_nEyl0OdDEfGruP9K3kFo-w" supplier="_qoDeIOd4EfGEXqwfBBJUCw" contract="_qoDeIOd4EfGEXqwfBBJUCw"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_QbiDgOdPEfGU1-_GF4Uuuw" client="_nEyl0OdDEfGruP9K3kFo-w" supplier="_QbYSgOdPEfGU1-_GF4Uuuw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_F8L3IOdMEfGU1-_GF4Uuuw" name="StudentSubSystem-Services">
+      <nestedClassifier xmi:type="uml:Interface" xmi:id="_k_uOkOd2EfGU1-_GF4Uuuw" name="Check Authentication"/>
+      <nestedClassifier xmi:type="uml:Interface" xmi:id="_tp-PkOg_EfGFapWLvVSyqw" name="Setup Direct Debit"/>
+      <nestedClassifier xmi:type="uml:Interface" xmi:id="_49UMEOg_EfGFapWLvVSyqw" name="Setup Direct Debit"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_6pGj4OdMEfGU1-_GF4Uuuw" name="SSO Authentication Manager">
+        <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_wGHJoOd1EfGU1-_GF4Uuuw" client="_6pGj4OdMEfGU1-_GF4Uuuw" supplier="_wF35EOd1EfGU1-_GF4Uuuw" contract="_wF35EOd1EfGU1-_GF4Uuuw"/>
+        <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_k_8RAOd2EfGU1-_GF4Uuuw" client="_6pGj4OdMEfGU1-_GF4Uuuw" supplier="_k_uOkOd2EfGU1-_GF4Uuuw" contract="_k_uOkOd2EfGU1-_GF4Uuuw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_PHGc0OdzEfGU1-_GF4Uuuw" name="User Data Manager">
+        <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_7tsbUOd2EfGU1-_GF4Uuuw" client="_PHGc0OdzEfGU1-_GF4Uuuw" supplier="_k_uOkOd2EfGU1-_GF4Uuuw" contract="_k_uOkOd2EfGU1-_GF4Uuuw"/>
+        <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_qJt4IOd_EfGEXqwfBBJUCw" client="_PHGc0OdzEfGU1-_GF4Uuuw" supplier="_qJYg8Od_EfGEXqwfBBJUCw" contract="_qJYg8Od_EfGEXqwfBBJUCw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_quNtUOd0EfGU1-_GF4Uuuw" name="Parcel Collection Manager">
+        <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_KtF_kOeHEfGEXqwfBBJUCw" client="_quNtUOd0EfGU1-_GF4Uuuw" supplier="_KsuMIOeHEfGEXqwfBBJUCw" contract="_KsuMIOeHEfGEXqwfBBJUCw"/>
+        <packagedElement xmi:type="uml:Usage" xmi:id="_vtulIOhBEfGFapWLvVSyqw" client="_quNtUOd0EfGU1-_GF4Uuuw" supplier="_vtQrEOhBEfGFapWLvVSyqw"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_QbYSgOdPEfGU1-_GF4Uuuw" name="Authentication"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_ibKugOdzEfGU1-_GF4Uuuw" name="Room Allocation Manager">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_d6uO4OeDEfGEXqwfBBJUCw" client="_ibKugOdzEfGU1-_GF4Uuuw" supplier="_d6ciEOeDEfGEXqwfBBJUCw" contract="_d6ciEOeDEfGEXqwfBBJUCw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_o_sLcOdzEfGU1-_GF4Uuuw" name="Visitor Manager">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_tbyosOeGEfGEXqwfBBJUCw" client="_o_sLcOdzEfGU1-_GF4Uuuw" supplier="_tbcqcOeGEfGEXqwfBBJUCw" contract="_tbcqcOeGEfGEXqwfBBJUCw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_o_sygOdzEfGU1-_GF4Uuuw" name="Facility Booking Manager">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_gD0iAOeGEfGEXqwfBBJUCw" client="_o_sygOdzEfGU1-_GF4Uuuw" supplier="_gDgY8OeGEfGEXqwfBBJUCw" contract="_gDgY8OeGEfGEXqwfBBJUCw"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_1cTG8OhAEfGFapWLvVSyqw" client="_o_sygOdzEfGU1-_GF4Uuuw" supplier="_1b43QOhAEfGFapWLvVSyqw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_o_tZkOdzEfGU1-_GF4Uuuw" name="Digital Key Manager">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_9s4RkOeGEfGEXqwfBBJUCw" client="_o_tZkOdzEfGU1-_GF4Uuuw" supplier="_9skvkOeGEfGEXqwfBBJUCw" contract="_9skvkOeGEfGEXqwfBBJUCw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_o_tZkedzEfGU1-_GF4Uuuw" name="Maintainence Manager">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_IiJc4OeFEfGEXqwfBBJUCw" client="_o_tZkedzEfGU1-_GF4Uuuw" supplier="_Ih3JAOeFEfGEXqwfBBJUCw" contract="_Ih3JAOeFEfGEXqwfBBJUCw"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_e-8JEOhAEfGFapWLvVSyqw" client="_o_tZkedzEfGU1-_GF4Uuuw" supplier="_e-e2EOhAEfGFapWLvVSyqw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_o_tZkudzEfGU1-_GF4Uuuw" name="Contract Manager">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_Ic88MOd3EfGU1-_GF4Uuuw" client="_o_tZkudzEfGU1-_GF4Uuuw" supplier="_k_uOkOd2EfGU1-_GF4Uuuw" contract="_k_uOkOd2EfGU1-_GF4Uuuw"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_EjyJ4OeFEfGEXqwfBBJUCw" client="_o_tZkudzEfGU1-_GF4Uuuw" supplier="_Ejf2AOeFEfGEXqwfBBJUCw" contract="_Ejf2AOeFEfGEXqwfBBJUCw"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_tqZGUOg_EfGFapWLvVSyqw" client="_o_tZkudzEfGU1-_GF4Uuuw" supplier="_tp-PkOg_EfGFapWLvVSyqw" contract="_tp-PkOg_EfGFapWLvVSyqw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_98t_AOdzEfGU1-_GF4Uuuw" name="Billing Service">
+      <packagedElement xmi:type="uml:Usage" xmi:id="_49w4AOg_EfGFapWLvVSyqw" client="_98t_AOdzEfGU1-_GF4Uuuw" supplier="_49UMEOg_EfGFapWLvVSyqw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_crGX4Od0EfGU1-_GF4Uuuw" name="Student Push Notification Service">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_0OyVgOhBEfGFapWLvVSyqw" client="_crGX4Od0EfGU1-_GF4Uuuw" supplier="_0OUbcOhBEfGFapWLvVSyqw" contract="_0OUbcOhBEfGFapWLvVSyqw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_ts3PwOd0EfGU1-_GF4Uuuw" name="Parcel Collection Manager">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_TZ31YOd6EfGEXqwfBBJUCw" name="&lt;&lt;use>>" client="_ts3PwOd0EfGU1-_GF4Uuuw" supplier="_qoDeIOd4EfGEXqwfBBJUCw" contract="_qoDeIOd4EfGEXqwfBBJUCw"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_ze2Q8Od-EfGEXqwfBBJUCw" name="ViewParcels" client="_ts3PwOd0EfGU1-_GF4Uuuw" supplier="_zelyQOd-EfGEXqwfBBJUCw" contract="_zelyQOd-EfGEXqwfBBJUCw"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_FeiQAOeHEfGEXqwfBBJUCw" client="_ts3PwOd0EfGU1-_GF4Uuuw" supplier="_FeOG8OeHEfGEXqwfBBJUCw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_wSmi8Od0EfGU1-_GF4Uuuw" name="Maintainence Backlog Server">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_y1akQOhAEfGFapWLvVSyqw" client="_wSmi8Od0EfGU1-_GF4Uuuw" supplier="_y0-fYOhAEfGFapWLvVSyqw" contract="_y0-fYOhAEfGFapWLvVSyqw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_-a56YOd0EfGU1-_GF4Uuuw" name="Facility Management Service">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_64EMEOhAEfGFapWLvVSyqw" client="_-a56YOd0EfGU1-_GF4Uuuw" supplier="_63rxkOhAEfGFapWLvVSyqw" contract="_63rxkOhAEfGFapWLvVSyqw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_jXCO8Od1EfGU1-_GF4Uuuw" name="Room Tour Manager">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_q7nZsOeAEfGEXqwfBBJUCw" client="_jXCO8Od1EfGU1-_GF4Uuuw" supplier="_q7WT8OeAEfGEXqwfBBJUCw" contract="_q7WT8OeAEfGEXqwfBBJUCw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_wF35EOd1EfGU1-_GF4Uuuw" name="Authentication"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_ZAIQEOd2EfGU1-_GF4Uuuw" client="_QbiDgOdPEfGU1-_GF4Uuuw" supplier="_wF35EOd1EfGU1-_GF4Uuuw"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_qJYg8Od_EfGEXqwfBBJUCw" name="Load User Data"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_OK5AUOeAEfGEXqwfBBJUCw" name="User Data"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_Us1DUOeAEfGEXqwfBBJUCw" client="_OLJfAOeAEfGEXqwfBBJUCw" supplier="_qJYg8Od_EfGEXqwfBBJUCw"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_nuTwMOeAEfGEXqwfBBJUCw" name="Get Room Tour"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_q7WT8OeAEfGEXqwfBBJUCw" name="Load Room Tour"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_1sIV8OeAEfGEXqwfBBJUCw" client="_nuk18OeAEfGEXqwfBBJUCw" supplier="_q7WT8OeAEfGEXqwfBBJUCw"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_P-DfsOeDEfGEXqwfBBJUCw" name="Allocate Room"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_d6ciEOeDEfGEXqwfBBJUCw" name="Allocate Room"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="__ujgUOeEEfGEXqwfBBJUCw" name="View Contract"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_Ejf2AOeFEfGEXqwfBBJUCw" name="View Contract"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_Ih3JAOeFEfGEXqwfBBJUCw" name="Load Maintainence tickets"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_UYY1oOeGEfGEXqwfBBJUCw" name="View Maintainence tickets"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_YcHJwOeGEfGEXqwfBBJUCw" name="Book Facilities"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_gDgY8OeGEfGEXqwfBBJUCw" name="Load Facilities Booking"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_rJDxEOeGEfGEXqwfBBJUCw" name="Manage Visitors"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_tbcqcOeGEfGEXqwfBBJUCw" name="Manage Visitors"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_9skvkOeGEfGEXqwfBBJUCw" name="Manage Keys"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_Ale2YOeHEfGEXqwfBBJUCw" name="Manage Keys"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_FeOG8OeHEfGEXqwfBBJUCw" name="Manage Parcels"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_KsuMIOeHEfGEXqwfBBJUCw" name="Manage Parcels"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_Nrg4gOeHEfGEXqwfBBJUCw" client="_P-gysOeDEfGEXqwfBBJUCw" supplier="_d6ciEOeDEfGEXqwfBBJUCw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_O7pDoOeHEfGEXqwfBBJUCw" client="__vPc0OeEEfGEXqwfBBJUCw" supplier="_Ejf2AOeFEfGEXqwfBBJUCw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_QozJAOeHEfGEXqwfBBJUCw" client="_UZJqoOeGEfGEXqwfBBJUCw" supplier="_Ih3JAOeFEfGEXqwfBBJUCw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_VHDdAOeHEfGEXqwfBBJUCw" client="_Yccg8OeGEfGEXqwfBBJUCw" supplier="_gDgY8OeGEfGEXqwfBBJUCw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_ZalHsOeHEfGEXqwfBBJUCw" client="_rJi5QOeGEfGEXqwfBBJUCw" supplier="_tbcqcOeGEfGEXqwfBBJUCw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_SfYasOeIEfGEXqwfBBJUCw" client="_FeiQAOeHEfGEXqwfBBJUCw" supplier="_KsuMIOeHEfGEXqwfBBJUCw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_wZrecOg8EfGFapWLvVSyqw" client="_Aly_cOeHEfGEXqwfBBJUCw" supplier="_9skvkOeGEfGEXqwfBBJUCw"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_e-e2EOhAEfGFapWLvVSyqw" name="Add to maintainence backlog"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_y0-fYOhAEfGFapWLvVSyqw" name="Assign maintainence"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_1b43QOhAEfGFapWLvVSyqw" name="Request facilities"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_63rxkOhAEfGFapWLvVSyqw" name="Log faciliity request"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_vtQrEOhBEfGFapWLvVSyqw" name="Send Push notification request"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_0OUbcOhBEfGFapWLvVSyqw" name="Send push notification"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_o7QkEOhHEfGFapWLvVSyqw" client="_49w4AOg_EfGFapWLvVSyqw" supplier="_tp-PkOg_EfGFapWLvVSyqw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_aTJ1wOhIEfGFapWLvVSyqw" client="_e-8JEOhAEfGFapWLvVSyqw" supplier="_y0-fYOhAEfGFapWLvVSyqw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_dHSKQOhIEfGFapWLvVSyqw" client="_1cTG8OhAEfGFapWLvVSyqw" supplier="_63rxkOhAEfGFapWLvVSyqw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_QRZAcOhJEfGFapWLvVSyqw" client="_vtulIOhBEfGFapWLvVSyqw" supplier="_0OUbcOhBEfGFapWLvVSyqw"/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_-8lW0OdCEfGruP9K3kFo-w">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-8poQOdCEfGruP9K3kFo-w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+  </uml:Model>
+  <standard:Service xmi:id="_MC_yoOdzEfGU1-_GF4Uuuw" base_Component="_6pGj4OdMEfGU1-_GF4Uuuw"/>
+  <standard:Service xmi:id="_VohicOdzEfGU1-_GF4Uuuw" base_Component="_PHGc0OdzEfGU1-_GF4Uuuw"/>
+  <standard:Service xmi:id="_Yxv48Og-EfGFapWLvVSyqw" base_Component="_jXCO8Od1EfGU1-_GF4Uuuw"/>
+  <standard:Service xmi:id="_bCGK8Og-EfGFapWLvVSyqw" base_Component="_ibKugOdzEfGU1-_GF4Uuuw"/>
+  <standard:Service xmi:id="_cT7mQOg-EfGFapWLvVSyqw" base_Component="_o_tZkudzEfGU1-_GF4Uuuw"/>
+  <standard:Service xmi:id="_eEgzEOg-EfGFapWLvVSyqw" base_Component="_o_tZkedzEfGU1-_GF4Uuuw"/>
+  <standard:Service xmi:id="_fM4wYOg-EfGFapWLvVSyqw" base_Component="_o_sygOdzEfGU1-_GF4Uuuw"/>
+  <standard:Service xmi:id="_gNpCwOg-EfGFapWLvVSyqw" base_Component="_o_sLcOdzEfGU1-_GF4Uuuw"/>
+  <standard:Service xmi:id="_hswsIOg-EfGFapWLvVSyqw" base_Component="_98t_AOdzEfGU1-_GF4Uuuw"/>
+  <standard:Service xmi:id="_Ha9r8OhBEfGFapWLvVSyqw" base_Component="_o_tZkOdzEfGU1-_GF4Uuuw"/>
+  <standard:Service xmi:id="_IepWgOhBEfGFapWLvVSyqw" base_Component="_quNtUOd0EfGU1-_GF4Uuuw"/>
+</xmi:XMI>
